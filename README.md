@@ -1,3 +1,57 @@
+
+
+
+<h1 align="center">Alpha Phiota React App</h1>
+
+<h3 align="center"> Stack </h3>
+
+<h4> Frameworks </h4>
+
+* React
+* Gatsby (Static Site Generator built on React)
+
+<h4> Styling</h4>
+
+* Styled Components (CSS-in-JS)
+* React Bootstrap
+
+
+<h4>Recommended Developer Prerequsites</h4>
+
+
+<h5> Proficiency in: </h5>
+
+* HTML
+* CSS
+  * Basic CSS Styling
+  * Responsive + Mobile Design
+* Javascript
+  * ES6
+  
+<h5> Familiarity with: </h5>
+
+  * React
+  * Object Oriented Programming
+  
+<h5> Bonus </h5>
+
+* Advanced CSS:
+  * Flexbox
+  * Grid
+  * Animation
+
+**Set Up Your Development Environment:** https://www.gatsbyjs.org/tutorial/part-zero/
+
+Once your dev environment is set up simply navigate to the root project filder and type
+```gatsby develop```
+in your linux terminal to launch the web app in your browser
+on [http://localhost:8000/](http://localhost:8000/)
+
+
+Below is the auto generated Gatsby starter Readme for reference:
+<hr>
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">

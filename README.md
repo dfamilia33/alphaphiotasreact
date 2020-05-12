@@ -1,3 +1,40 @@
+<h1 align="center">Alpha Phiota React App</h1>
+
+<h2> Stack </h2>
+
+<h4> Frameworks </h2>
+* React
+* Gatsby (Static Site Generator built on React)
+
+<h4> Styling</h4>
+* Styled Components (CSS-in-JS)
+* React Bootstrap
+
+<p>**Set Up Your Development Environment:** https://www.gatsbyjs.org/tutorial/part-zero/</p>
+
+<h4>Recommended Developer Prerequsites</h4>
+
+
+<h6> Proficiency in: </h6>
+* HTML
+* CSS
+  * Basic CSS Styling
+  * Responsive + Mobile Design
+* Javascript
+  * ES6
+  
+<h6> Familiarity with: </h6>
+  * React
+  * Object Oriented Programming
+  
+<h6> Bonus </h6>
+* Advanced CSS:
+  * Flexbox
+  * Grid
+  * Animation
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">

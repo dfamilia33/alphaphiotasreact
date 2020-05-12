@@ -42,6 +42,12 @@
 
 **Set Up Your Development Environment:** https://www.gatsbyjs.org/tutorial/part-zero/
 
+Once your dev environment is set up simply navigate to the root project filder and type
+```gatsby develop```
+in your linux terminal to launch the web app in your browser
+on [http://localhost:8000/](http://localhost:8000/)
+
+
 Below is the auto generated Gatsby starter Readme for reference:
 <hr>
 

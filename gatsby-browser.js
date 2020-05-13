@@ -1,0 +1,1 @@
+require("./public/static/css/index.css")

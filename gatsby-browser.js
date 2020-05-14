@@ -1,1 +1,1 @@
-require("./public/static/css/index.css")
+require("./static/src/css/index.css")

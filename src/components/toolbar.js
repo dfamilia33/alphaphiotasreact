@@ -1,5 +1,6 @@
 import React from "react"
 import styled from 'styled-components'
+import logo from "../../static/src/img/phiotalogo.png"
 
 
 const Navbox = styled.div`
@@ -96,7 +97,7 @@ export default function Toolbar() {
 						<Hamburgerbar></Hamburgerbar>
 					</div>
 				</Mobileli>
-				<Logo><A href="/"><img src="../../public/static/img/phiotalogo.png" width="200" height="60" data-retina="true" alt=""></img></A></Logo>
+				<Logo><A href="/"><img src={logo} width="200" height="60" data-retina="true" alt=""></img></A></Logo>
 				<Leftitem><A href="/about">About Us</A></Leftitem>
 				<Leftitem><A href="/brothers">Brothers</A></Leftitem>
 				<Leftitem><A href="/membership">Membership</A></Leftitem>

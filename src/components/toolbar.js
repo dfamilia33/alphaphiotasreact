@@ -1,12 +1,26 @@
 import React from "react"
 import styled from 'styled-components'
 import logo from "../../static/src/img/phiotalogo.png"
+import Hamburger from "./hamburger"
+import "../../static/src/css/icon.css"
+
+
+const Menu = styled.div`
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	@media (min-width: 768px) {
+		display: None;
+	}
+
+`
 
 
 const Navbox = styled.div`
 	-webkit-box-shadow: 0 8px 20px -10px #cccccc;
     -moz-box-shadow: 0 8px 20px -10px #cccccc;
     box-shadow: 0 10px 20px -16px #cccccc;
+	background-color: #b30000;
 
 `
 
@@ -16,7 +30,7 @@ const Ulist = styled.ul`
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #b30000;
+	
 `;
 
 const Listitem = styled.li`
@@ -42,22 +56,19 @@ const Rightitem = styled(Listitem)`
 	}
 `
 
-const Logo = styled(Listitem)`
+const Logo = styled.div`
 	@media (min-width: 768px) {
 		float: left;
 	}
 
 `
 
-const Mobileli = styled.li`
-	float: left;
-	height: 60px;
-	line-height: 60px;
+const Bars = styled.div`
 	@media (min-width: 768px) {
-		display: none;
+		float: right;
 	}
 
-`;
+`
 
 const A = styled.a`
 	display: block; 
@@ -82,13 +93,19 @@ export default function Toolbar() {
 	return (
 		
 		<Navbox>
-			<Ulist>
-				<Logo><A href="/"><img src={logo} width="200" height="60" data-retina="true" alt=""></img></A></Logo>
-				<Leftitem><A href="/about">About Us</A></Leftitem>
-				<Leftitem><A href="/brothers">Brothers</A></Leftitem>
-				<Leftitem><A href="/membership">Membership</A></Leftitem>
-				<Rightitem><A href="/contact">Contact</A></Rightitem>
-			</Ulist>
+			<div>
+				<Menu><Hamburger></Hamburger></Menu>
+				<Logo><img src={logo} width="200" height="60" data-retina="true" alt=""></img></Logo>
+				
+				
+				<Ulist>
+					<Leftitem><A href="/about">About Us</A></Leftitem>
+					<Leftitem><A href="/brothers">Brothers</A></Leftitem>
+					<Leftitem><A href="/membership">Membership</A></Leftitem>
+					<Rightitem><A href="/contact">Contact</A></Rightitem>
+				</Ulist>
+			</div>
+			
 		</Navbox>
 	)
 

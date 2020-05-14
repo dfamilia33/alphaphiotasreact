@@ -63,13 +63,6 @@ const Logo = styled.div`
 
 `
 
-const Bars = styled.div`
-	@media (min-width: 768px) {
-		float: right;
-	}
-
-`
-
 const A = styled.a`
 	display: block; 
 	padding: 0px;
@@ -86,6 +79,13 @@ const A = styled.a`
 `;
 
 
+let hidden = true;
+
+const Mobilelinks = styled.div`
+	display: ${props => props.display ? "none" : "block"};
+`
+
+
 
 export default function Toolbar() {
 
@@ -94,7 +94,7 @@ export default function Toolbar() {
 		
 		<Navbox>
 			<div>
-				<Menu><Hamburger></Hamburger></Menu>
+				<Menu><Hamburger onClick={(hidden)=>{hidden = !hidden} }></Hamburger></Menu>
 				<Logo><img src={logo} width="200" height="60" data-retina="true" alt=""></img></Logo>
 				
 				
@@ -105,6 +105,12 @@ export default function Toolbar() {
 					<Rightitem><A href="/contact">Contact</A></Rightitem>
 				</Ulist>
 			</div>
+			<Mobilelinks display={hidden}>
+			<ul>
+				<li>Hi</li>
+			</ul>
+
+			</Mobilelinks>
 			
 		</Navbox>
 	)

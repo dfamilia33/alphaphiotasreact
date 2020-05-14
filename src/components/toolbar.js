@@ -89,6 +89,16 @@ const Mobilelinks = styled.div`
 	}
 `
 
+const Vertli = styled.li`
+	font-size:24px;
+
+
+`
+const Lastvert = styled(Vertli)`
+	padding-bottom: 16px;
+
+`
+
 
 
 export default class Toolbar extends React.Component {
@@ -120,9 +130,15 @@ export default class Toolbar extends React.Component {
 					</Ulist>
 				</div>
 				<Mobilelinks display={this.state.hidden ? "none" : "block"}>
-					<ul>
-						<li>Hi</li>
-					</ul>
+					<Ulist>
+						<Vertli><A href="/about">About Us</A></Vertli>
+						<hr></hr>
+						<Vertli><A href="/brothers">Brothers</A></Vertli>
+						<hr></hr>
+						<Vertli><A href="/membership">Membership</A></Vertli>
+						<hr></hr>
+						<Lastvert><A href="/contact">Contact</A></Lastvert>
+					</Ulist>
 
 				</Mobilelinks>
 				

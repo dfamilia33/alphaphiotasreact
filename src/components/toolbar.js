@@ -79,42 +79,56 @@ const A = styled.a`
 `;
 
 
-let hidden = true;
+
 
 const Mobilelinks = styled.div`
-	display: ${props => props.display ? "none" : "block"};
+	display: ${props => props.display };
+	background-color: #800000;
+	@media (min-width: 768px) {
+		display: None;
+	}
 `
 
 
 
-export default function Toolbar() {
+export default class Toolbar extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			hidden: true
+		};
+	}
 
+	toggle = ()=> this.setState({ hidden: !this.state.hidden })
+	
 
-	return (
+	render() {
 		
-		<Navbox>
-			<div>
-				<Menu><Hamburger onClick={(hidden)=>{hidden = !hidden} }></Hamburger></Menu>
-				<Logo><img src={logo} width="200" height="60" data-retina="true" alt=""></img></Logo>
-				
-				
-				<Ulist>
-					<Leftitem><A href="/about">About Us</A></Leftitem>
-					<Leftitem><A href="/brothers">Brothers</A></Leftitem>
-					<Leftitem><A href="/membership">Membership</A></Leftitem>
-					<Rightitem><A href="/contact">Contact</A></Rightitem>
-				</Ulist>
-			</div>
-			<Mobilelinks display={hidden}>
-			<ul>
-				<li>Hi</li>
-			</ul>
-
-			</Mobilelinks>
+		return (
 			
-		</Navbox>
-	)
+			<Navbox>
+				<div>
+					<Menu onClick={()=>this.toggle()}><Hamburger ></Hamburger></Menu>
+					<Logo><img src={logo} width="200" height="60" data-retina="true" alt=""></img></Logo>
+					
+					
+					<Ulist>
+						<Leftitem><A href="/about">About Us</A></Leftitem>
+						<Leftitem><A href="/brothers">Brothers</A></Leftitem>
+						<Leftitem><A href="/membership">Membership</A></Leftitem>
+						<Rightitem><A href="/contact">Contact</A></Rightitem>
+					</Ulist>
+				</div>
+				<Mobilelinks display={this.state.hidden ? "none" : "block"}>
+					<ul>
+						<li>Hi</li>
+					</ul>
 
+				</Mobilelinks>
+				
+			</Navbox>
+		)
+	}
 }
 
 

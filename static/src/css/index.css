@@ -2,3 +2,10 @@ body {
     margin: 0px;
     background-color: #1a1a1a;
 }
+
+.homepagepic {
+
+    max-width: 100%;
+    height: auto;
+
+}

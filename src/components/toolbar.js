@@ -139,8 +139,8 @@ export default class Toolbar extends React.Component {
 						<Leftitem><A href="/brothers">Brothers</A></Leftitem>
 						<Leftitem><A href="/membership">Membership</A></Leftitem>
 						<Rightitem><A href="/contact">Contact</A></Rightitem>
-						<Rightitem><A href="https://www.facebook.com/alphaphiota/" target="_blank"><i className="fa fa-facebook-square" ></i></A></Rightitem>
-						<Rightitem><A href="https://www.instagram.com/alphaphiotas/?hl=en" target="_blank" ><i class="fa fa-instagram"></i></A></Rightitem>
+						<Rightitem className="social"><A href="https://www.facebook.com/alphaphiota/" target="_blank"><i className="fa fa-facebook-square" ></i></A></Rightitem>
+						<Rightitem className="social"><A href="https://www.instagram.com/alphaphiotas/?hl=en" target="_blank" ><i class="fa fa-instagram"></i></A></Rightitem>
 					</Ulist>
 				</div>
 				<Mobilelinks display={this.state.hidden ? "none" : "block"}>

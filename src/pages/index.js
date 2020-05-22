@@ -1,6 +1,7 @@
 import React from "react"
 import ReactDOM from 'react-dom';
 import Toolbar from "../components/toolbar"
+import Mobilebar from "../components/mobilebar"
 import mainpic from "../../static/src/img/mainFIA.jpg"
 import Button from 'react-bootstrap/Button'
 //import Img from "gatsby-image"
@@ -33,10 +34,13 @@ export default function Index() {
         <div>
             <Toolbar/> 
             <div className = "imgcontainer">
-              <div className = "overlayingtext">
-                  Phi Iota Alpha Fraternity, Inc. <br></br>
-                  Alpha Chapter
-                  <Button variant="outline-dark" href="/about">Learn more</Button>
+              <div className = "overlayingtextbox">
+                  <div className= "overlayingtext">
+                    <div>Phi Iota Alpha Fraternity, Inc.</div>
+                    <div>Alpha Chapter</div>
+                    <div>Est. 1931</div>
+                  </div>
+                  <Button variant="outline-dark" href="/about" className="learnmorebutton">Learn more</Button>
                   
               </div>
               <div className="downarrows">
@@ -47,7 +51,7 @@ export default function Index() {
 
               </div>
             </div>
-
+            <Mobilebar/>
         </div>
              
     )

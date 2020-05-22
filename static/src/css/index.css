@@ -22,16 +22,32 @@ body {
     background-size: cover;
 }
 
-.overlayingtext{
-    font-size: 32px;
-    font-weight: bold;
-    font-family: 'Titillium Web';
-    text-shadow: 0 0 3px #FF0000;
+.overlayingtextbox{
+
     width: 50%;
     top: 8%;
     left: 25%;
     right: 25%;
     position: relative;
+
+
+}
+@media (max-width: 768px) {
+    .overlayingtextbox{
+        width: 80%;
+        left: 10%;
+        right: 10%;
+    }
+}
+
+.overlayingtext {
+
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Arial';
+    color: #b30000;
+    text-shadow:  0px 0px 5px #000000;
+
 }
 
 .downarrows {
@@ -46,5 +62,41 @@ body {
 .bi-chevron-double-down:hover {
 
     fill:#b30000;
+    transform: translate(0,5px);
+    cursor: pointer;
 
+}
+
+#mobilebar {
+    text-align: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom: 0;
+}
+
+.learnmorebutton {
+    font-weight: bold;
+    color: #b30000;
+    border-color: #b30000;
+}
+
+.learnmorebutton:hover, .learnmorebutton:active, .learnmorebutton:visited {
+    background-color: #b30000 !important;
+    border-color: #b30000;
+    box-shadow: 0 0px 10px 5px #cccccc;
+}
+
+.social {
+    border-bottom: none !important;
+}
+
+.vl {
+
+    height: 30px;
+    border-right:none;
+    border-top:none;
+    border-bottom: none;
+    border-left: 1px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
 }

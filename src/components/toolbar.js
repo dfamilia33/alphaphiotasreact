@@ -43,6 +43,9 @@ const Listitem = styled.li`
 	&:hover {
 		border-bottom-color: #BC9307;
 	}
+	&:active {
+		border-bottom-color: #BC9307;
+	}
 `
 const Leftitem = styled(Listitem)`
 	float: left;
@@ -79,6 +82,9 @@ const A = styled.a`
 	padding: 0px 16px;
 	text-decoration: none !important;
 	&:hover {
+		color: #BC9307;
+	}
+	&:active {
 		color: #BC9307;
 	}
 
@@ -125,7 +131,7 @@ export default class Toolbar extends React.Component {
 			<Navbox>
 				<div>
 					<Menu onClick={()=>this.toggle()}><Hamburger ></Hamburger></Menu>
-					<Logo><img src={logo} width="200" height="60" data-retina="true" alt=""></img></Logo>
+					<Logo><a href="/"><img src={logo} width="200" height="60" data-retina="true" alt=""></img></a></Logo>
 					
 					
 					<Ulist>

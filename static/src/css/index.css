@@ -26,7 +26,10 @@ body {
     font-weight: bold;
     font-family: 'Titillium Web';
     text-shadow: 0 0 3px #FF0000;
+    width: 50%;
+
     top: 8%;
-    left: 40%;
-    position: absolute;
+    left: 25%;
+    right: 25%;
+    position: relative;
 }

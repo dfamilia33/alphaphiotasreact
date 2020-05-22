@@ -32,3 +32,18 @@ body {
     right: 25%;
     position: relative;
 }
+
+.downarrows {
+
+    width: 20px;
+    height: 20px;
+    bottom: 10px;
+    left: 50%;
+    position: absolute;
+}
+
+.bi-chevron-double-down:hover {
+
+    fill:#b30000;
+
+}

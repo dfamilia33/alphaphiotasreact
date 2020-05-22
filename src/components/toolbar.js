@@ -35,7 +35,14 @@ const Ulist = styled.ul`
 
 const Listitem = styled.li`
 	display: inline;
-
+	border-style: solid;
+	border-color: #b30000;
+	border-bottom: 3px solid transparent;
+	border-left: none;
+  	border-right: none;
+	&:hover {
+		border-bottom-color: #BC9307;
+	}
 `
 const Leftitem = styled(Listitem)`
 	float: left;
@@ -70,8 +77,7 @@ const A = styled.a`
 	color: white;
 	text-align: center;
 	padding: 0px 16px;
-	text-decoration: none;
-
+	text-decoration: none !important;
 	&:hover {
 		color: #BC9307;
 	}

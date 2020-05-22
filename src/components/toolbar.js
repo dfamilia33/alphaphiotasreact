@@ -21,7 +21,7 @@ const Navbox = styled.div`
     -moz-box-shadow: 0 8px 20px -10px #cccccc;
     box-shadow: 0 10px 20px -16px #cccccc;
 	background-color: #b30000;
-
+	
 `
 
 

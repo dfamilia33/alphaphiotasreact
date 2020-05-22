@@ -20,6 +20,7 @@ body {
     box-shadow: inset 3px 3px 100px 0 #000000;
     background-image: url("../img/mainFIA.jpg");
     background-size: cover;
+    background-position: center top;
 }
 
 .overlayingtextbox{
@@ -37,6 +38,12 @@ body {
         width: 80%;
         left: 10%;
         right: 10%;
+    }
+    .overlayingtext {
+
+        font-size: 36px !important;
+        line-height: 1.6;
+
     }
 }
 

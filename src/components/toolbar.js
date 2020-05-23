@@ -131,7 +131,7 @@ export default class Toolbar extends React.Component {
 			<Navbox>
 				<div>
 					<Menu onClick={()=>this.toggle()}><Hamburger ></Hamburger></Menu>
-					<Logo><a href="/"><img src={logo} width="200" height="60" data-retina="true" alt=""></img></a></Logo>
+					<Logo><a href="/"><img src={logo} width="200" height="60" data-retina="true" alt="Phi Iota Alpha"></img></a></Logo>
 					
 					
 					<Ulist>

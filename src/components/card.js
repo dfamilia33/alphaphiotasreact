@@ -6,7 +6,7 @@ export default function BootstrapCard(props) {
 
     let src = "https://via.placeholder.com/400x400.png?text=Placeholder";
 
-    if (props.bro.src != undefined){
+    if (props.bro.src !== undefined){
         src = props.bro.src;
     }
 

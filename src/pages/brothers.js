@@ -1,8 +1,6 @@
 import React from "react"
 import Toolbar from "../components/toolbar"
 import BootstrapCard from "../components/card"
-import CardDeck from 'react-bootstrap/CardDeck'
-import CardColumns from 'react-bootstrap/CardColumns'
 import Franquizpf from "../../static/src/img/cristianfranquizsq.jpeg"
 import Familiapf from "../../static/src/img/dfprofile.jpg"
 
@@ -17,33 +15,10 @@ export default function Brothers() {
       name:"Andres Almeida",
     },
     {
-      name: "Daniel Familia",
-      src: Familiapf,
-    },
-    {
-      name: "Carlos Power",
-    },
-    {
-      name: "Luis Garcia",
-    },
-    {
-      name: "Myron Rios",
-    },
-    {
-      name: "Marvin Rios",
+      name:"Antonio Anaya",
     },
     {
       name: "Ben Blake",
-    },
-    {
-      name: "Jose Canales",
-    },
-    {
-      name: "Cristian Franquiz",
-      src: Franquizpf,
-    },
-    {
-      name:"Antonio Anaya",
     },
     {
       name:"Cesar Bravo",
@@ -52,7 +27,18 @@ export default function Brothers() {
       name:"Diego De Cabanyes",
     },
     {
-      name:"Leonardo De La Rosa",
+      name: "Jose Canales",
+    },
+    {
+      name: "Daniel Familia",
+      src: Familiapf,
+    },
+    {
+      name: "Cristian Franquiz",
+      src: Franquizpf,
+    },
+    {
+      name: "Luis Garcia",
     },
     {
       name:"David Mata Jimenez ",
@@ -67,7 +53,16 @@ export default function Brothers() {
       name:"Alexander Pirovano",
     },
     {
+      name: "Carlos Power",
+    },
+    {
       name:"Jonathan Punin",
+    },
+    {
+      name: "Marvin Rios",
+    },
+    {
+      name:"Leonardo De La Rosa",
     },
     {
       name:"Michael Sanchez",

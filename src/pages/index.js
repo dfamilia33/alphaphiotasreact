@@ -2,7 +2,6 @@ import React from "react"
 import ReactDOM from 'react-dom';
 import Toolbar from "../components/toolbar"
 import Mobilebar from "../components/mobilebar"
-import mainpic from "../../static/src/img/mainFIA.jpg"
 import Button from 'react-bootstrap/Button'
 //import Img from "gatsby-image"
 //import { useStaticQuery, graphql} from "gatsby"

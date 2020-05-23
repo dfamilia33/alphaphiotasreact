@@ -11,7 +11,7 @@ export default function BootstrapCard(props) {
     }
 
     return (  
-        <Card style={{ width: '18rem',margin:10 }} bg={"dark"} text={"white"}>
+        <Card style={{ width: '18rem',margin:20 }} bg={"dark"} text={"white"}>
             <Card.Img variant="top" src= {src} />
             <Card.Footer>{props.bro.name}</Card.Footer>
         </Card>

@@ -100,11 +100,11 @@ export default function Brothers() {
           <li>Nationality</li>
           <li>Hometown</li>
       </ul>
-      <CardColumns style={{ "position": "absolute","width": "90%", "left":"5%", }}>
+      <div className="boxContainer" style={{ "position": "absolute","width": "90%", "left":"5%", }}>
         {bros.map((person,index) => (
           <BootstrapCard bro={person}/>
         ))}
-      </CardColumns>
+      </div>
     </div>
   )
 }

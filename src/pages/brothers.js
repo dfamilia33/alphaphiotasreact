@@ -3,6 +3,9 @@ import Toolbar from "../components/toolbar"
 import BootstrapCard from "../components/card"
 import CardDeck from 'react-bootstrap/CardDeck'
 import CardColumns from 'react-bootstrap/CardColumns'
+import Franquizpf from "../../static/src/img/cristianfranquizsq.jpeg"
+import Familiapf from "../../static/src/img/dfprofile.jpg"
+
 
 
 
@@ -10,9 +13,12 @@ import CardColumns from 'react-bootstrap/CardColumns'
 export default function Brothers() {
   
   const bros = [
-    
+    {
+      name:"Andres Almeida",
+    },
     {
       name: "Daniel Familia",
+      src: Familiapf,
     },
     {
       name: "Carlos Power",
@@ -31,6 +37,49 @@ export default function Brothers() {
     },
     {
       name: "Jose Canales",
+    },
+    {
+      name: "Cristian Franquiz",
+      src: Franquizpf,
+    },
+    {
+      name:"Antonio Anaya",
+    },
+    {
+      name:"Cesar Bravo",
+    },
+    {
+      name:"Diego De Cabanyes",
+    },
+    {
+      name:"Leonardo De La Rosa",
+    },
+    {
+      name:"David Mata Jimenez ",
+    },
+    {
+      name:"Giuseppe Molfino",
+    },
+    {
+      name:"Sean Phulnauth",
+    },
+    {
+      name:"Alexander Pirovano",
+    },
+    {
+      name:"Jonathan Punin",
+    },
+    {
+      name:"Michael Sanchez",
+    },
+    {
+      name:"Khaled Soliman",
+    },
+    {
+      name:"Gavin Tomlinson",
+    },
+    {
+      name:"Ethan Wright ",
     },
   ]
 

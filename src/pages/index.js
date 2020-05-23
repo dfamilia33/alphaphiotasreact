@@ -10,25 +10,6 @@ import Button from 'react-bootstrap/Button'
 
 export default function Index() {
 
-    /*const data = useStaticQuery(graphql`
-      query MyQuery {
-        file(relativePath: {eq: "mainFIA.jpg"}) {
-          childImageSharp {
-            fluid {
-              aspectRatio
-              base64
-              sizes
-              src
-              srcSet
-            }
-          }
-        }
-      }
-    `);*/
-
-    //   <Img fluid = {data.childImageSharp.fluid}
-    //alt = "Chapter Photo"/>
-    //<img src={mainpic} className="homepagepic" alt="Chapter Pohoto"/>
   
     return (
         <div>

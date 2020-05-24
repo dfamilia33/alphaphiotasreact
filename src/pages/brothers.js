@@ -6,8 +6,16 @@ import Familiapf from "../../static/src/img/dfprofile.jpg"
 import Seanpf from "../../static/src/img/seanphulnauthpf.jpg"
 import DRflag from "../../static/src/img/4x3/do.svg"
 import PRflag from "../../static/src/img/4x3/pr.svg"
-
-
+import COflag from "../../static/src/img/4x3/co.svg"
+import MXflag from "../../static/src/img/4x3/mx.svg"
+import ARflag from "../../static/src/img/4x3/ar.svg"
+import PEflag from "../../static/src/img/4x3/pe.svg"
+import HNflag from "../../static/src/img/4x3/hn.svg"
+import ITflag from "../../static/src/img/4x3/it.svg"
+import GYflag from "../../static/src/img/4x3/gy.svg"
+import ECflag from "../../static/src/img/4x3/ec.svg"
+import EGflag from "../../static/src/img/4x3/eg.svg"
+import JMflag from "../../static/src/img/4x3/jm.svg"
 
 
 
@@ -25,6 +33,7 @@ export default function Brothers() {
       hometown:"Cartagena, CO",
       nationality:["Colombian"],
       position:["Academic Chair"],
+      flgsrc:[COflag],
     },
     {
       name:"Antonio Anaya",
@@ -34,6 +43,7 @@ export default function Brothers() {
       graduation:"2023",
       hometown:"New Rochelle, NY",
       nationality:["Mexican"],
+      flgsrc:[MXflag],
     },
     {
       name: "Ben Blake",
@@ -44,6 +54,7 @@ export default function Brothers() {
       hometown:"Harrisonburg, VA",
       nationality:["Argentine"],
       position:["Treasurer"],
+      flgsrc:[ARflag],
     },
     {
       name:"Cesar Bravo",
@@ -53,6 +64,7 @@ export default function Brothers() {
       graduation:"2023",
       hometown:"Lindenhurst, NY",
       nationality:["Peruvian"],
+      flagsrc:[PEflag],
     },
     {
       name:"Diego De Cabanyes",
@@ -62,6 +74,7 @@ export default function Brothers() {
       graduation:"2022",
       hometown:"Mexico DF, MX",
       nationality:["Mexican"],
+      flgsrc:[MXflag],
     },
     {
       name: "Jose Canales",
@@ -71,6 +84,7 @@ export default function Brothers() {
       graduation:"2022",
       hometown:"Yonkers, NY",
       nationality:["Honduran"],
+      flagsrc:[HNflag],
     },
     {
       name: "Daniel Familia",
@@ -82,9 +96,10 @@ export default function Brothers() {
       nationality:["Dominican"],
       position:["Web Chair"],
       src: Familiapf,
+      flagsrc:[DRflag],
     },
     {
-      name: "Cristian Franquiz",
+      name:"Cristian Franquiz",
       bname:"Tutiyo",
       line:"Los 4 Elementos (Fall '19)",
       major:["Chemistry", "Accelerated B.S./Ph.D."],
@@ -92,6 +107,7 @@ export default function Brothers() {
       hometown:"San Juan, PR",
       nationality:["Puerto Rican"],
       src: Franquizpf,
+      flagsrc:[PRflag],
     },
     {
       name:"David Mata Jimenez ",
@@ -103,6 +119,7 @@ export default function Brothers() {
       hometown:"San Antonio, TX",
       nationality:["Mexican"],
       position:["Community Service Chair"],
+      flagsrc:[MXflag],
     },
     {
       name:"Giuseppe Molfino",
@@ -113,10 +130,10 @@ export default function Brothers() {
       hometown:"Newark, NJ",
       nationality:["Peruivan","Italian"],
       position:["Social Chair"],
+      flagsrc:[PEflag,ITflag],
     },
     {
       name:"Sean Phulnauth",
-      src: Seanpf,
       bname:"Monte",
       line:"Uptown",
       major:["Mechanical Engineering"],
@@ -124,6 +141,8 @@ export default function Brothers() {
       hometown:"Bronx, NY",
       nationality:["Guyanese"],
       position:["President"],
+      src: Seanpf,
+      flagsrc:[GYflag],
     },
     {
       name:"Alexander Pirovano",
@@ -133,6 +152,7 @@ export default function Brothers() {
       graduation:"2022",
       hometown:"Hazlet, NJ",
       nationality:["Puerto Rican", "Argentine"],
+      flagsrc:[PRflag,ARflag]
     },
     {
       name: "Carlos Power",
@@ -142,6 +162,7 @@ export default function Brothers() {
       graduation:"2021",
       hometown:"Trujillo Alto, PR",
       nationality:["Puerto Rican"],
+      flagsrc:[PRflag],
     },
     {
       name:"Jonathan Punin",
@@ -151,6 +172,7 @@ export default function Brothers() {
       graduation:"2023",
       hometown:"Bronx, NY",
       nationality:["Ecuadorian"],
+      flagsrc:[ECflag],
     },
     {
       name: "Marvin Rios",
@@ -160,6 +182,7 @@ export default function Brothers() {
       graduation:"2021",
       hometown:"Egg Harbor Township, NJ",
       nationality:["Peruvian"],
+      flagsrc:[PEflag],
     },
     {
       name:"Leonardo De La Rosa",
@@ -169,6 +192,7 @@ export default function Brothers() {
       graduation:"2023",
       hometown:"Guaynabo, PR",
       nationality:["Puerto Rican"],
+      flagsrc:[PRflag],
     },
     {
       name:"Michael Sanchez",
@@ -178,6 +202,7 @@ export default function Brothers() {
       graduation:"2023",
       hometown:"Bronx, NY",
       nationality:["Mexican"],
+      flagsrc:[MXflag],
     },
     {
       name:"Khaled Soliman",
@@ -188,6 +213,7 @@ export default function Brothers() {
       hometown:"Brooklyn, NY",
       nationality:["Egyptian"],
       position:["Vice President"],
+      flagsrc:[EGflag],
     },
     {
       name:"Gavin Tomlinson",
@@ -198,6 +224,7 @@ export default function Brothers() {
       hometown:"Bronx, NY",
       nationality:["Jamaican"],
       position:["Fundraising Chair"],
+      flagsrc:[JMflag],
     },
     {
       name:"Ethan Wright ",
@@ -207,6 +234,7 @@ export default function Brothers() {
       graduation:"2020",
       hometown:["Cordova, TN"],
       nationality:["Honduran"],
+      flagsrc:[HNflag],
     },
   ]
 

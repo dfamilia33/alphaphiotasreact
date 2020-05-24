@@ -18,7 +18,7 @@ export default function Brothers() {
     {
       name:"Andres Almeida",
       bname:"Benkos Bioho",
-      line:"Los Rumis (Spring \'19)",
+      line:"Los Rumis (Spring '19)",
       major:["Mechanical Engineering"],
       minor:["Computer Science"],
       graduation:"2022",
@@ -29,7 +29,7 @@ export default function Brothers() {
     {
       name:"Antonio Anaya",
       bname:"Huitzilopo",
-      line:"Siete Sueños (Spring \'20)",
+      line:"Siete Sueños (Spring '20)",
       major:["Electrical Engineering"],
       graduation:"2023",
       hometown:"New Rochelle, NY",
@@ -38,7 +38,7 @@ export default function Brothers() {
     {
       name: "Ben Blake",
       bname:"Khalo",
-      line:"Los Turistas (Fall \'17)",
+      line:"Los Turistas (Fall '17)",
       major:["Computer Science"],
       graduation:"2021",
       hometown:"Harrisonburg, VA",
@@ -48,7 +48,7 @@ export default function Brothers() {
     {
       name:"Cesar Bravo",
       bname:"Sumag Ñawi",
-      line:"Siete Sueños (Spring \'20)",
+      line:"Siete Sueños (Spring '20)",
       major:["Biology"],
       graduation:"2023",
       hometown:"Lindenhurst, NY",
@@ -57,7 +57,7 @@ export default function Brothers() {
     {
       name:"Diego De Cabanyes",
       bname:"Melchor",
-      line:"Los Rumis (Spring \'19)",
+      line:"Los Rumis (Spring '19)",
       major:["Engineering"],
       graduation:"2022",
       hometown:"Mexico DF, MX",
@@ -96,7 +96,7 @@ export default function Brothers() {
     {
       name:"David Mata Jimenez ",
       bname:"Minero",
-      line:"Los Chavos del 8 (Fall \'16)",
+      line:"Los Chavos del 8 (Fall '16)",
       major:["Computer Science"],
       minor:["Philosophy"],
       graduation:"2022",
@@ -107,7 +107,7 @@ export default function Brothers() {
     {
       name:"Giuseppe Molfino",
       bname:"Huaccha Khoyaq",
-      line:"Siete Sueños (Spring \'20)",
+      line:"Siete Sueños (Spring '20)",
       major:["Engineering"],
       graduation:"2023",
       hometown:"Newark, NJ",
@@ -128,7 +128,7 @@ export default function Brothers() {
     {
       name:"Alexander Pirovano",
       bname:"Hector",
-      line:"Siete Sueños (Spring \'20)",
+      line:"Siete Sueños (Spring '20)",
       major:["Engineering"],
       graduation:"2022",
       hometown:"Hazlet, NJ",
@@ -137,7 +137,7 @@ export default function Brothers() {
     {
       name: "Carlos Power",
       bname:"Power Y Geralt",
-      line:"Los Turistas (Fall \'17)",
+      line:"Los Turistas (Fall '17)",
       major:["Computer Sciene","ITWS"],
       graduation:"2021",
       hometown:"Trujillo Alto, PR",
@@ -146,7 +146,7 @@ export default function Brothers() {
     {
       name:"Jonathan Punin",
       bname:"Bochi",
-      line:"Siete Sueños (Spring \'20)",
+      line:"Siete Sueños (Spring '20)",
       major:["Computer Systems Engineering"],
       graduation:"2023",
       hometown:"Bronx, NY",
@@ -155,7 +155,7 @@ export default function Brothers() {
     {
       name: "Marvin Rios",
       bname:"Kennedy",
-      line:"Los Chavos del 8 (Fall \'16)",
+      line:"Los Chavos del 8 (Fall '16)",
       major:["Chemical Engineering"],
       graduation:"2021",
       hometown:"Egg Harbor Township, NJ",
@@ -164,7 +164,7 @@ export default function Brothers() {
     {
       name:"Leonardo De La Rosa",
       bname:"Bairoa",
-      line:"Siete Sueños (Spring \'20)",
+      line:"Siete Sueños (Spring '20)",
       major:["Engineering"],
       graduation:"2023",
       hometown:"Guaynabo, PR",
@@ -173,7 +173,7 @@ export default function Brothers() {
     {
       name:"Michael Sanchez",
       bname:"Principito",
-      line:"Siete Sueños (Spring \'20)",
+      line:"Siete Sueños (Spring '20)",
       major:["Engineering"],
       graduation:"2023",
       hometown:"Bronx, NY",
@@ -202,7 +202,7 @@ export default function Brothers() {
     {
       name:"Ethan Wright ",
       bname:"Selección",
-      line:"Los Chavos del 8 (Fall \'16)",
+      line:"Los Chavos del 8 (Fall 16)",
       major:["Computer Science"],
       graduation:"2020",
       hometown:["Cordova, TN"],
@@ -233,16 +233,32 @@ export default function Brothers() {
         ))}
         <div className="card bg-dark text-white" style={{width: "18rem", margin: "20px"}}>
           <div className="brotherimgbackdrop card-img-top">
-            <div className="brotheroverlay">
+            <div className="brotheroverlay" style={{overflow:"hidden"}}>
               <div style={{color:"white", padding:20}}>
-                <div>Brother Name: Mariposa</div>
-                <div>Line: Los 4 Elementos (Fall '19)</div>
-                <div>Major: Computer Science</div>
-                <div>Minor: ITWS</div>
-                <div>Graduation: 2022</div>
-                <div>Hometown: Waterbury, CT</div>
-                <div>Nationality: Dominican <img src={DRflag} alt="Dominican Flag" style ={{width: 20,height:15}}/></div> 
-                <div>Position: Web Chair</div>
+                <div style={{float:"left",width:110}}>Brother Name:</div><div style={{float:"left", width:130}}>Mariposa</div>
+                <div style={{float:"left",width:40}}>Line:</div><div style={{float:"left",width:200}}>Los 4 Elementos (Fall '19)</div> 
+                <div style={{float:"left",width:50}}>Major:</div><div style={{float:"left",width:190}}>
+                  <ul style={{listStyleType: "none", padding:0,margin:0}}>
+                    <li>Computer Science</li>
+                    <li>Engineering</li>
+                  </ul>
+                </div>
+                <div style={{float:"left",width:50}}>Minor:</div><div style={{float:"left",width:190}}>
+                <ul style={{listStyleType: "none", padding:0,margin:0}}>
+                    <li>ITWS</li>
+                  </ul>
+                </div>
+                <div style={{float:"left",width:90}}>Graduation:</div><div style={{float:"left",width:150}}>2022</div>
+                <div style={{float:"left",width:90}}>Hometown:</div><div style={{float:"left",width:150}}>Waterbury, CT</div>
+                <div style={{float:"left",width:90}}>Nationality:</div><div style={{float:"left",width:150}}>
+                <ul style={{listStyleType: "none", padding:0,margin:0}}>
+                    <li>Dominican <img src={DRflag} alt="Dominican Flag" style ={{width: 20,height:15}}/></li>
+                    <li>Puerto Rican <img src={PRflag} alt="Dominican Flag" style ={{width: 20,height:15}}/></li>
+                  </ul>
+                   
+                   
+                </div> 
+                <div style={{float:"left",width:70}}>Position:</div><div style={{float:"left",width:170}}>President, Web Chair</div>
               </div>
             </div>
           </div>

@@ -51,7 +51,7 @@ export default function Brothers() {
       line:"Siete Sueños (Spring \'20)",
       major:["Biology"],
       graduation:"2023",
-      hometown:["Lindenhurst, NY"],
+      hometown:"Lindenhurst, NY",
       nationality:["Peruvian"],
     },
     {
@@ -60,7 +60,7 @@ export default function Brothers() {
       line:"Los Rumis (Spring \'19)",
       major:["Engineering"],
       graduation:"2022",
-      hometown:["Mexico DF, MX"],
+      hometown:"Mexico DF, MX",
       nationality:["Mexican"],
     },
     {
@@ -80,6 +80,7 @@ export default function Brothers() {
       graduation:"2022",
       hometown:"Waterbury, CT",
       nationality:["Dominican"],
+      position:["Web Chair"],
       src: Familiapf,
     },
     {

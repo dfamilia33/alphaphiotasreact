@@ -3,6 +3,10 @@ import Toolbar from "../components/toolbar"
 import BootstrapCard from "../components/card"
 import Franquizpf from "../../static/src/img/cristianfranquizsq.jpeg"
 import Familiapf from "../../static/src/img/dfprofile.jpg"
+import Seanpf from "../../static/src/img/seanphulnauthpf.jpg"
+import DRflag from "../../static/src/img/4x3/do.svg"
+import PRflag from "../../static/src/img/4x3/pr.svg"
+
 
 
 
@@ -48,6 +52,7 @@ export default function Brothers() {
     },
     {
       name:"Sean Phulnauth",
+      src: Seanpf,
     },
     {
       name:"Alexander Pirovano",
@@ -99,6 +104,24 @@ export default function Brothers() {
         {bros.map((person,index) => (
           <BootstrapCard bro={person}/>
         ))}
+        <div className="card bg-dark text-white" style={{width: "18rem", margin: "20px",boxShadow: "0px 1px 20px 5px  #b30000"}}>
+          <div className="brotherimgbackdrop card-img-top">
+            <div className="brotheroverlay">
+              <div style={{color:"white", padding:20}}>
+                <div>Brother Name: Mariposa</div>
+                <div>Line: Los 4 Elementos (Fall '19)</div>
+                <div>Major: Computer Science</div>
+                <div>Minor: ITWS</div>
+                <div>Graduation: 2022</div>
+                <div>Hometown: Waterbury, CT</div>
+                <div>Nationality: Dominican <img src={DRflag} alt="Dominican Flag" style ={{width: 20,height:15}}/></div> 
+                <div>Position: Web Chair</div>
+              </div>
+            </div>
+          </div>
+          <div className="card-footer">Daniel Familia</div>    
+        </div>
+
       </div>
     </div>
   )

@@ -232,7 +232,7 @@ export default function Brothers() {
           <BootstrapCard bro={person}/>
         ))}
         <div className="card bg-dark text-white" style={{width: "18rem", margin: "20px"}}>
-          <div className="brotherimgbackdrop card-img-top">
+          <div className="brotherimgbackdrop card-img-top" style={{backgroundImage:`url("${Familiapf}")`}}>
             <div className="brotheroverlay" style={{overflow:"hidden"}}>
               <div style={{color:"white", padding:20}}>
                 <div style={{float:"left",width:110}}>Brother Name:</div><div style={{float:"left", width:130}}>Mariposa</div>

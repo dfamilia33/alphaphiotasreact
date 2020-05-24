@@ -33,7 +33,7 @@ export default function Brothers() {
       hometown:"Cartagena, CO",
       nationality:["Colombian"],
       position:["Academic Chair"],
-      flgsrc:[COflag],
+      flagsrc:[COflag],
     },
     {
       name:"Antonio Anaya",
@@ -43,7 +43,7 @@ export default function Brothers() {
       graduation:"2023",
       hometown:"New Rochelle, NY",
       nationality:["Mexican"],
-      flgsrc:[MXflag],
+      flagsrc:[MXflag],
     },
     {
       name: "Ben Blake",
@@ -54,7 +54,7 @@ export default function Brothers() {
       hometown:"Harrisonburg, VA",
       nationality:["Argentine"],
       position:["Treasurer"],
-      flgsrc:[ARflag],
+      flagsrc:[ARflag],
     },
     {
       name:"Cesar Bravo",
@@ -74,7 +74,7 @@ export default function Brothers() {
       graduation:"2022",
       hometown:"Mexico DF, MX",
       nationality:["Mexican"],
-      flgsrc:[MXflag],
+      flagsrc:[MXflag],
     },
     {
       name: "Jose Canales",
@@ -99,7 +99,7 @@ export default function Brothers() {
       flagsrc:[DRflag],
     },
     {
-      name:"Cristian Franquiz",
+      name:"Christian Franquiz",
       bname:"Tutiyo",
       line:"Los 4 Elementos (Fall '19)",
       major:["Chemistry", "Accelerated B.S./Ph.D."],
@@ -279,12 +279,10 @@ export default function Brothers() {
                 <div style={{float:"left",width:90}}>Graduation:</div><div style={{float:"left",width:150}}>2022</div>
                 <div style={{float:"left",width:90}}>Hometown:</div><div style={{float:"left",width:150}}>Waterbury, CT</div>
                 <div style={{float:"left",width:90}}>Nationality:</div><div style={{float:"left",width:150}}>
-                <ul style={{listStyleType: "none", padding:0,margin:0}}>
+                  <ul style={{listStyleType: "none", padding:0,margin:0}}>
                     <li>Dominican <img src={DRflag} alt="Dominican Flag" style ={{width: 20,height:15}}/></li>
                     <li>Puerto Rican <img src={PRflag} alt="Dominican Flag" style ={{width: 20,height:15}}/></li>
                   </ul>
-                   
-                   
                 </div> 
                 <div style={{float:"left",width:70}}>Position:</div><div style={{float:"left",width:170}}>President, Web Chair</div>
               </div>

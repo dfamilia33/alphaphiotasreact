@@ -23,7 +23,7 @@ export default class BootstrapCard extends React.Component {
       return(
           <div key={this.props.bro.bname} className="card bg-dark text-white" style={{width: "18rem", margin: "20px"}} 
           onMouseOver={() => this.setState({hovered: true})} onMouseOut={()=>this.setState({hovered: false})}
-          onClick={()=>this.setState({selected: !this.state.selected}) } >
+          onClick={()=>this.setState({selected: !this.state.selected,hovered: false}) } >
             <div className="brotherimgbackdrop card-img-top" style={{backgroundImage:`url("${src}")`}}>
               <div className="brotheroverlay" style={{overflow:"hidden",visibility:`${shown}`  }}>
                 <div style={{color:"white", padding:20}}>

@@ -5,8 +5,10 @@ export default function About() {
   return (
     <div>
       <Toolbar/>
-      <div style={{ color: `red` }}>
-        <h1>About Page Coming Soon</h1>
+      <div id="aboutheader" >
+        <div id="aboutparllax" className="parallax">
+          
+        </div>
       </div>
     </div>
   )

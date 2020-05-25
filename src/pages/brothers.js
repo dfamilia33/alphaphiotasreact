@@ -4,8 +4,15 @@ import BootstrapCard from "../components/card"
 import Franquizpf from "../../static/src/img/cristianfranquizsq.jpeg"
 import Familiapf from "../../static/src/img/dfprofile.jpg"
 import Seanpf from "../../static/src/img/seanphulnauthpf.jpg"
+import Pirovanopf from "../../static/src/img/pirovanopf.jpeg"
+import Molfinopf from "../../static/src/img/giuseppeepf.jpeg"
+import Jonathonpf from "../../static/src/img/jonathon.jpeg"
+import Cesarpf from "../../static/src/img/cesar.jpeg"
+import Leopf from "../../static/src/img/leo.jpeg"
+import Michaelpf from "../../static/src/img/michael.jpeg"
+import Tonypf from "../../static/src/img/tony.jpeg"
 import DRflag from "../../static/src/img/4x3/do.svg"
-import PRflag from "../../static/src/img/4x3/pr.svg"
+import PRflag from "../../static/src/img/4x3/pr.png"
 import COflag from "../../static/src/img/4x3/co.svg"
 import MXflag from "../../static/src/img/4x3/mx.svg"
 import ARflag from "../../static/src/img/4x3/ar.svg"
@@ -16,7 +23,7 @@ import GYflag from "../../static/src/img/4x3/gy.svg"
 import ECflag from "../../static/src/img/4x3/ec.svg"
 import EGflag from "../../static/src/img/4x3/eg.svg"
 import JMflag from "../../static/src/img/4x3/jm.svg"
-
+import CUflag from "../../static/src/img/4x3/cu.png"
 
 
 
@@ -43,6 +50,7 @@ export default function Brothers() {
       graduation:"2023",
       hometown:"New Rochelle, NY",
       nationality:["Mexican"],
+      src:Tonypf,
       flagsrc:[MXflag],
     },
     {
@@ -64,6 +72,7 @@ export default function Brothers() {
       graduation:"2023",
       hometown:"Lindenhurst, NY",
       nationality:["Peruvian"],
+      src:Cesarpf,
       flagsrc:[PEflag],
     },
     {
@@ -107,6 +116,7 @@ export default function Brothers() {
       graduation:"2021",
       hometown:"San Juan, PR",
       nationality:["Puerto Rican"],
+      position:"Recruitment Chair",
       src: Franquizpf,
       flagsrc:[PRflag],
     },
@@ -131,6 +141,7 @@ export default function Brothers() {
       hometown:"Newark, NJ",
       nationality:["Peruivan","Italian"],
       position:"Social Chair",
+      src: Molfinopf,
       flagsrc:[PEflag,ITflag],
     },
     {
@@ -149,11 +160,12 @@ export default function Brothers() {
       name:"Alexander Pirovano",
       bname:"Hector",
       line:"Siete Sueños (Spring '20)",
-      major:["Engineering"],
+      major:["Mechanical Engineering"],
       graduation:"2022",
       hometown:"Hazlet, NJ",
-      nationality:["Puerto Rican", "Argentine"],
-      flagsrc:[PRflag,ARflag]
+      nationality:[ "Argentine","Puerto Rican","Italian","Cuban"],
+      src: Pirovanopf,
+      flagsrc:[ARflag,PRflag,ITflag,CUflag]
     },
     {
       name: "Carlos Power",
@@ -163,6 +175,7 @@ export default function Brothers() {
       graduation:"2021",
       hometown:"Trujillo Alto, PR",
       nationality:["Puerto Rican"],
+      position:"Alumni Relations Chair",
       flagsrc:[PRflag],
     },
     {
@@ -173,6 +186,7 @@ export default function Brothers() {
       graduation:"2023",
       hometown:"Bronx, NY",
       nationality:["Ecuadorian"],
+      src:Jonathonpf,
       flagsrc:[ECflag],
     },
     {
@@ -183,6 +197,7 @@ export default function Brothers() {
       graduation:"2021",
       hometown:"Egg Harbor Township, NJ",
       nationality:["Peruvian"],
+      position:"Public Relations Chair",
       flagsrc:[PEflag],
     },
     {
@@ -193,6 +208,7 @@ export default function Brothers() {
       graduation:"2023",
       hometown:"Guaynabo, PR",
       nationality:["Puerto Rican"],
+      src:Leopf,
       flagsrc:[PRflag],
     },
     {
@@ -203,6 +219,7 @@ export default function Brothers() {
       graduation:"2023",
       hometown:"Bronx, NY",
       nationality:["Mexican"],
+      src:Michaelpf,
       flagsrc:[MXflag],
     },
     {

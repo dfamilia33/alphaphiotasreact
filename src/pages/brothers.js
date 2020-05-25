@@ -32,7 +32,7 @@ export default function Brothers() {
       graduation:"2022",
       hometown:"Cartagena, CO",
       nationality:["Colombian"],
-      position:["Academic Chair"],
+      position:"Academic Chair",
       flagsrc:[COflag],
     },
     {
@@ -53,7 +53,7 @@ export default function Brothers() {
       graduation:"2021",
       hometown:"Harrisonburg, VA",
       nationality:["Argentine"],
-      position:["Treasurer"],
+      position:"Treasurer",
       flagsrc:[ARflag],
     },
     {
@@ -88,13 +88,14 @@ export default function Brothers() {
     },
     {
       name: "Daniel Familia",
+      bname:"Mariposa",
       line:"Los 4 Elementos (Fall '19)",
       major:["Computer Science"],
       minor:["ITWS"],
       graduation:"2022",
       hometown:"Waterbury, CT",
       nationality:["Dominican"],
-      position:["Web Chair"],
+      position:"Web Chair",
       src: Familiapf,
       flagsrc:[DRflag],
     },
@@ -118,7 +119,7 @@ export default function Brothers() {
       graduation:"2022",
       hometown:"San Antonio, TX",
       nationality:["Mexican"],
-      position:["Community Service Chair"],
+      position:"Community Service Chair",
       flagsrc:[MXflag],
     },
     {
@@ -129,18 +130,18 @@ export default function Brothers() {
       graduation:"2023",
       hometown:"Newark, NJ",
       nationality:["Peruivan","Italian"],
-      position:["Social Chair"],
+      position:"Social Chair",
       flagsrc:[PEflag,ITflag],
     },
     {
       name:"Sean Phulnauth",
       bname:"Monte",
-      line:"Uptown",
+      line:"Uptown (Spring '18)",
       major:["Mechanical Engineering"],
       graduation:"2021",
       hometown:"Bronx, NY",
       nationality:["Guyanese"],
-      position:["President"],
+      position:"President",
       src: Seanpf,
       flagsrc:[GYflag],
     },
@@ -212,18 +213,18 @@ export default function Brothers() {
       graduation:"2021",
       hometown:"Brooklyn, NY",
       nationality:["Egyptian"],
-      position:["Vice President"],
+      position:"Vice President",
       flagsrc:[EGflag],
     },
     {
       name:"Gavin Tomlinson",
       bname:"Sfigato",
-      line:"Uptown",
+      line:"Uptown (Spring '18)",
       major:["Egnineering"],
       graduation:"2021",
       hometown:"Bronx, NY",
       nationality:["Jamaican"],
-      position:["Fundraising Chair"],
+      position:"Fundraising Chair",
       flagsrc:[JMflag],
     },
     {
@@ -259,37 +260,6 @@ export default function Brothers() {
         {bros.map((person,index) => (
           <BootstrapCard bro={person}/>
         ))}
-        <div className="card bg-dark text-white" style={{width: "18rem", margin: "20px"}}>
-          <div className="brotherimgbackdrop card-img-top" style={{backgroundImage:`url("${Familiapf}")`}}>
-            <div className="brotheroverlay" style={{overflow:"hidden"}}>
-              <div style={{color:"white", padding:20}}>
-                <div style={{float:"left",width:110}}>Brother Name:</div><div style={{float:"left", width:130}}>Mariposa</div>
-                <div style={{float:"left",width:40}}>Line:</div><div style={{float:"left",width:200}}>Los 4 Elementos (Fall '19)</div> 
-                <div style={{float:"left",width:50}}>Major:</div><div style={{float:"left",width:190}}>
-                  <ul style={{listStyleType: "none", padding:0,margin:0}}>
-                    <li>Computer Science</li>
-                    <li>Engineering</li>
-                  </ul>
-                </div>
-                <div style={{float:"left",width:50}}>Minor:</div><div style={{float:"left",width:190}}>
-                <ul style={{listStyleType: "none", padding:0,margin:0}}>
-                    <li>ITWS</li>
-                  </ul>
-                </div>
-                <div style={{float:"left",width:90}}>Graduation:</div><div style={{float:"left",width:150}}>2022</div>
-                <div style={{float:"left",width:90}}>Hometown:</div><div style={{float:"left",width:150}}>Waterbury, CT</div>
-                <div style={{float:"left",width:90}}>Nationality:</div><div style={{float:"left",width:150}}>
-                  <ul style={{listStyleType: "none", padding:0,margin:0}}>
-                    <li>Dominican <img src={DRflag} alt="Dominican Flag" style ={{width: 20,height:15}}/></li>
-                    <li>Puerto Rican <img src={PRflag} alt="Dominican Flag" style ={{width: 20,height:15}}/></li>
-                  </ul>
-                </div> 
-                <div style={{float:"left",width:70}}>Position:</div><div style={{float:"left",width:170}}>President, Web Chair</div>
-              </div>
-            </div>
-          </div>
-          <div className="card-footer">Daniel Familia</div>    
-        </div>
 
       </div>
     </div>

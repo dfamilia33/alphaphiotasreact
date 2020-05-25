@@ -1,5 +1,4 @@
 import React from "react"
-import Card from 'react-bootstrap/Card'
 
 
 export default function BootstrapCard(props) {
@@ -10,15 +9,8 @@ export default function BootstrapCard(props) {
         src = props.bro.src;
     }
 
-    /*return (  
-        <Card style={{ width: '18rem',margin:20 }} bg={"dark"} text={"white"}>
-            <Card.Img variant="top" src= {src} />
-            <Card.Footer>{props.bro.name}</Card.Footer>
-        </Card>
-    )*/
-
     return(
-        <div className="card bg-dark text-white" style={{width: "18rem", margin: "20px"}}>
+        <div className="card bg-dark text-white" style={{width: "18rem", margin: "20px",boxShadow: "0px 1px 20px 5px  #b30000"}}>
           <div className="brotherimgbackdrop card-img-top" style={{backgroundImage:`url("${src}")`}}>
             <div className="brotheroverlay" style={{overflow:"hidden"}}>
               <div style={{color:"white", padding:20}}>
@@ -31,6 +23,21 @@ export default function BootstrapCard(props) {
                     ))}
                   </ul>
                 </div>
+                {props.bro.minor !== undefined &&
+                    (
+                    <div>
+                        <div style={{float:"left",width:50}}>Minor:</div>
+                        <div style={{float:"left",width:190}}>
+                            <ul style={{listStyleType: "none", padding:0,margin:0}}>
+                            {props.bro.minor.map((minor,index) => ( 
+                                <li>{minor}</li>
+                            ))}
+                            </ul>
+                        </div>
+                    </div>
+                    )
+
+                }
                 <div style={{float:"left",width:90}}>Graduation:</div><div style={{float:"left",width:150}}>{props.bro.graduation}</div>
                 <div style={{float:"left",width:90}}>Hometown:</div><div style={{float:"left",width:150}}>{props.bro.hometown}</div>
                 <div style={{float:"left",width:90}}>Nationality:</div><div style={{float:"left",width:150}}>   
@@ -40,6 +47,15 @@ export default function BootstrapCard(props) {
                     ))}
                   </ul>
                 </div> 
+                {props.bro.position !== undefined &&
+                    (
+                        <div>
+                            <div style={{float:"left",width:70}}>Position:</div>
+                            <div style={{float:"left",width:170}}>{props.bro.position}</div>
+                        </div>
+                    )
+
+                }
               </div>
             </div>
           </div>

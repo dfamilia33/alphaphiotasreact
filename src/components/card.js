@@ -10,8 +10,6 @@ export default class BootstrapCard extends React.Component {
       };
     }
 
-
-
     render(){
 
       let src = "https://via.placeholder.com/400x400.png?text=Placeholder";
@@ -20,10 +18,14 @@ export default class BootstrapCard extends React.Component {
           src = this.props.bro.src;
       }
 
+      let shown = (this.state.hovered || this.state.selected) ? 'visible' : 'hidden';
+
       return(
-          <div key={this.props.bro.bname} className="card bg-dark text-white" style={{width: "18rem", margin: "20px"}}>
+          <div key={this.props.bro.bname} className="card bg-dark text-white" style={{width: "18rem", margin: "20px"}} 
+          onMouseOver={() => this.setState({hovered: true})} onMouseOut={()=>this.setState({hovered: false})}
+          onClick={()=>this.setState({selected: !this.state.selected}) } >
             <div className="brotherimgbackdrop card-img-top" style={{backgroundImage:`url("${src}")`}}>
-              <div className="brotheroverlay" style={{overflow:"hidden"}}>
+              <div className="brotheroverlay" style={{overflow:"hidden",visibility:`${shown}`  }}>
                 <div style={{color:"white", padding:20}}>
                   <div style={{float:"left",width:110}}>Brother Name:</div><div style={{float:"left", width:130}}>{this.props.bro.bname}</div>
                   <div style={{float:"left",width:40}}>Line:</div><div style={{float:"left",width:200}}>{this.props.bro.line}</div> 

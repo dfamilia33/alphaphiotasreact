@@ -244,18 +244,8 @@ export default function Brothers() {
   return (
     <div>
       <Toolbar/>
-      <h1 style={{ color: `red` }}>Brothers Page Coming Soon</h1>
+      <h1 className="Broheader">Active Brothers</h1>
       <hr></hr>
-      <p style={{ color: `white` }}>This is where the brothers page will go. Planning on making a roster view
-      of brothers using card like objects with flexbox. <br></br> The cards will have an image
-      and maybe things like:</p>
-      <ul style={{ color: `white` }}>
-          <li>Class year</li>
-          <li>Crossing</li>
-          <li>Major</li>
-          <li>Nationality</li>
-          <li>Hometown</li>
-      </ul>
       <div className="boxContainer" style={{ "position": "absolute","width": "90%", "left":"5%", }}>
         {bros.map((person,index) => (
           <BootstrapCard bro={person}/>

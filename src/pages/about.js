@@ -6,10 +6,10 @@ export default function About() {
     <div>
       <Toolbar/>
       <div id="aboutheader" >
-        <div id="aboutparllax" className="parallax">
-          
+        <div id="aboutparallax" className="parallax">       
         </div>
       </div>
+      <div style = {{width:"100%", height: "1000px"}}></div>
     </div>
   )
 }

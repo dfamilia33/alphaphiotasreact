@@ -13,6 +13,7 @@ import Michaelpf from "../../static/src/img/michael.jpeg"
 import Powerspf from "../../static/src/img/powers.jpeg"
 import Marvinpf from "../../static/src/img/marvinpf.jpeg"
 import Tonypf from "../../static/src/img/tony.jpeg"
+import Benpf from "../../static/src/img/ben.jpeg"
 import DRflag from "../../static/src/img/4x3/do.svg"
 import PRflag from "../../static/src/img/4x3/pr.png"
 import COflag from "../../static/src/img/4x3/co.svg"
@@ -57,13 +58,14 @@ export default function Brothers() {
     },
     {
       name: "Ben Blake",
-      bname:"Khalo",
+      bname:"Kahlo",
       line:"Los Turistas (Fall '17)",
       major:["Computer Science"],
       graduation:"2021",
       hometown:"Harrisonburg, VA",
       nationality:["Argentine"],
       position:"Treasurer",
+      src:Benpf,
       flagsrc:[ARflag],
     },
     {

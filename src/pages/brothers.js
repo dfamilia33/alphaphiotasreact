@@ -10,6 +10,8 @@ import Jonathonpf from "../../static/src/img/jonathon.jpeg"
 import Cesarpf from "../../static/src/img/cesar.jpeg"
 import Leopf from "../../static/src/img/leo.jpeg"
 import Michaelpf from "../../static/src/img/michael.jpeg"
+import Powerspf from "../../static/src/img/powers.jpeg"
+import Marvinpf from "../../static/src/img/marvinpf.jpeg"
 import Tonypf from "../../static/src/img/tony.jpeg"
 import DRflag from "../../static/src/img/4x3/do.svg"
 import PRflag from "../../static/src/img/4x3/pr.png"
@@ -68,7 +70,7 @@ export default function Brothers() {
       name:"Cesar Bravo",
       bname:"Sumag Ñawi",
       line:"Siete Sueños (Spring '20)",
-      major:["Biology"],
+      major:["Chemical Engineering"],
       graduation:"2023",
       hometown:"Lindenhurst, NY",
       nationality:["Peruvian"],
@@ -88,7 +90,7 @@ export default function Brothers() {
     {
       name: "Jose Canales",
       bname:"Faby",
-      line:"Los 4 Elementos (Fall '19)",
+      line:<div>Los Cuatro Elementos<br></br>(Fall '19)</div>,
       major:["Civil Engineering"],
       graduation:"2022",
       hometown:"Yonkers, NY",
@@ -98,7 +100,7 @@ export default function Brothers() {
     {
       name: "Daniel Familia",
       bname:"Mariposa",
-      line:"Los 4 Elementos (Fall '19)",
+      line:<div>Los Cuatro Elementos<br></br>(Fall '19)</div>,
       major:["Computer Science"],
       minor:["Information Technology & Web Science"],
       graduation:"2022",
@@ -111,7 +113,7 @@ export default function Brothers() {
     {
       name:"Christian Franquiz",
       bname:"Tutiyo",
-      line:"Los 4 Elementos (Fall '19)",
+      line:<div>Los Cuatro Elementos<br></br>(Fall '19)</div>,
       major:["Chemistry", "Accelerated B.S./Ph.D."],
       graduation:"2021",
       hometown:"San Juan, PR",
@@ -123,10 +125,10 @@ export default function Brothers() {
     {
       name:"David Mata Jimenez ",
       bname:"Minero",
-      line:"Los Chavos del 8 (Fall '16)",
+      line:<div>Los Chavos del Ocho <br></br> (Fall '16)</div>,
       major:["Computer Science"],
       minor:["Philosophy"],
-      graduation:"2022",
+      graduation:"2020",
       hometown:"San Antonio, TX",
       nationality:["Mexican"],
       position:"Community Service Chair",
@@ -136,7 +138,7 @@ export default function Brothers() {
       name:"Giuseppe Molfino",
       bname:"Huaccha Khoyaq",
       line:"Siete Sueños (Spring '20)",
-      major:["Engineering"],
+      major:["Aeronautical Engineering"],
       graduation:"2023",
       hometown:"Newark, NJ",
       nationality:["Peruivan","Italian"],
@@ -169,13 +171,14 @@ export default function Brothers() {
     },
     {
       name: "Carlos Power",
-      bname:"Power Y Geralt",
+      bname:"Power y Giralt",
       line:"Los Turistas (Fall '17)",
-      major:["Computer Science","Information Technology & Web Science"],
+      major:["Information Technology & Web Science"],
       graduation:"2021",
       hometown:"Trujillo Alto, PR",
       nationality:["Puerto Rican"],
       position:"Alumni Relations Chair",
+      src:Powerspf,
       flagsrc:[PRflag],
     },
     {
@@ -192,21 +195,22 @@ export default function Brothers() {
     {
       name: "Marvin Rios",
       bname:"Kennedy",
-      line:"Los Chavos del 8 (Fall '16)",
+      line:<div>Los Chavos del Ocho <br></br> (Fall '16)</div>,
       major:["Chemical Engineering"],
       graduation:"2021",
       hometown:"Egg Harbor Township, NJ",
       nationality:["Peruvian"],
       position:"Public Relations Chair",
+      src:Marvinpf,
       flagsrc:[PEflag],
     },
     {
       name:"Leonardo De La Rosa",
       bname:"Bairoa",
       line:"Siete Sueños (Spring '20)",
-      major:["Engineering"],
+      major:["Aerospace Engineering"],
       graduation:"2023",
-      hometown:"Guaynabo, PR",
+      hometown:"Caguas, PR",
       nationality:["Puerto Rican"],
       src:Leopf,
       flagsrc:[PRflag],
@@ -215,7 +219,7 @@ export default function Brothers() {
       name:"Michael Sanchez",
       bname:"Principito",
       line:"Siete Sueños (Spring '20)",
-      major:["Engineering"],
+      major:["Aeronautical Engineering"],
       graduation:"2023",
       hometown:"Bronx, NY",
       nationality:["Mexican"],
@@ -225,7 +229,7 @@ export default function Brothers() {
     {
       name:"Khaled Soliman",
       bname:"Nimr",
-      line:"Los 4 Elementos (Fall '19)",
+      line:<div>Los Cuatro Elementos<br></br>(Fall '19)</div>,
       major:["Aerospace Engineering"],
       graduation:"2021",
       hometown:"Brooklyn, NY",
@@ -247,7 +251,7 @@ export default function Brothers() {
     {
       name:"Ethan Wright ",
       bname:"Selección",
-      line:"Los Chavos del 8 (Fall 16)",
+      line:<div>Los Chavos del Ocho <br></br> (Fall '16)</div>,
       major:["Computer Science"],
       graduation:"2020",
       hometown:["Cordova, TN"],

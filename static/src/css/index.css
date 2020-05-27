@@ -325,3 +325,52 @@ body {
         font-size:16px;
     }
 }
+
+#brotherindex {
+    
+    width:100%;
+}
+
+.eboardpic {
+    width:200px;
+    margin:20px;
+    box-shadow: 0 0px 10px 5px #cccccc;
+}
+
+#eboardbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eboardcard {
+    color:white;
+    width:250px;
+    height:350px;
+    margin:10px;
+    overflow: hidden;
+}
+
+.meetbrobox {
+    width:800px;
+    left:40%;
+    position:relative;
+    margin-bottom:100px;
+}
+
+@media (max-width: 768px) {
+    .meetbrobox {
+        width:300px;
+        left:10%;
+    }
+}
+
+.eboardcardtext {
+    left:20%;
+    position: relative;
+}
+
+.meetbrobox h2 {
+    width:400px;
+
+}

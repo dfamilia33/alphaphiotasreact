@@ -2,11 +2,41 @@ import React from "react"
 import ReactDOM from 'react-dom';
 import Toolbar from "../components/toolbar"
 import Mobilebar from "../components/mobilebar"
+import Eboardcard from "../components/eboardcard"
 import Button from 'react-bootstrap/Button'
 import Stepup from "../../static/src/img/stepuprensselaersign.png"
+import Image from 'react-bootstrap/Image'
+import Seanpf from "../../static/src/img/seanphulnauthpf.jpg"
+import Khaledpf from "../../static/src/img/khaledpf.jpeg"
+import Benpf from "../../static/src/img/ben.jpeg"
+import Currentcrest from "../../static/src/img/current_crest.png"
 //import Img from "gatsby-image"
 //import { useStaticQuery, graphql} from "gatsby"
 
+const eboard = [
+  {
+    name:"Carlos Avila",
+    position:"Secretary",
+    src:Currentcrest,
+  },
+  {
+    name:"Sean Phulnauth",
+    position:"President",
+    src: Seanpf,
+
+  },
+  {
+    name:"Khaled Soliman",
+    position:"Vice President",
+    src:Khaledpf,
+  },
+  {
+    name: "Ben Blake",
+    position:"Treasurer",
+    src:Benpf,
+  },
+
+]
 
 export default function Index() {
 
@@ -59,7 +89,27 @@ export default function Index() {
 
               </div>
             </div>
-            <div style = {{width:"100%", height: "1000px"}}></div>
+            <div id= "brotherindex" >
+              <h1 className="Broheader">Meet our Eboard!</h1>
+
+              <div id="eboardbox">
+                {eboard.map((person,index) => (
+                  <Eboardcard bro={person}/>
+                ))}
+              </div>
+              
+              <br></br>
+              <div className="meetbrobox">
+                <h2 style={{color:"white"}}>Meet our brothers!</h2>
+                <Button style={{float:"left"}} variant="light" href="/brothers">Brothers</Button>
+                
+              </div>
+
+            </div>
+          
+
+       
+
             <Mobilebar/>
         </div>
              

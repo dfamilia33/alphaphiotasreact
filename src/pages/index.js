@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Toolbar from "../components/toolbar"
 import Mobilebar from "../components/mobilebar"
 import Button from 'react-bootstrap/Button'
+import Stepup from "../../static/src/img/stepuprensselaersign.png"
 //import Img from "gatsby-image"
 //import { useStaticQuery, graphql} from "gatsby"
 
@@ -20,7 +21,7 @@ export default function Index() {
                     <div>Alpha Chapter</div>
                     <div>Est. 1931</div>
                   </div>
-                  <Button variant="outline-dark" href="/about" className="learnmorebutton">Learn more</Button>
+                  
                   
               </div>
               <a href="#firstsection" style={{textDecoration:"none !important"}}>
@@ -33,7 +34,20 @@ export default function Index() {
                 </div>
               </a>
             </div>
-            <div id="firstsection"></div>
+            <div id="firstsection">
+
+              
+              <img id = "stepupimg" src={Stepup}></img>
+              
+              <div id="firstsectiontext" >
+                Our chapter stems from the first Latin American student organization in the United States formed at Rensselaer Polytechnic
+                Institute in the early 19th century, and has since expanded to form the first Latino Fraternity in the world. <br></br><br></br>
+                Phi Iota Alpha was founded for the purpose of effecting the social, economic, and political union of the Latin American nations throuh the 
+                spirit of Pan-Americanism. As well as emphasizing the importance of Latin America's past, we strive to become leaders to promote
+                the advancement of Latinos on campus, in the local community, and throughout the hemisphere. <br></br>
+                <Button variant="light" href="/about" className="learnmorebutton">Learn more</Button>
+              </div>
+            </div>
             <div id="indexparallax" className="parallax">
               <div id="indexparallaxoverlay">
                 <div id = "candidacytext">

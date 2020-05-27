@@ -1,4 +1,5 @@
 import React from "react"
+import Currentcrest from "../../static/src/img/current_crest.png"
 
 export default class BootstrapCard extends React.Component {
 
@@ -12,7 +13,7 @@ export default class BootstrapCard extends React.Component {
 
     render(){
 
-      let src = "https://via.placeholder.com/400x400.png?text=Placeholder";
+      let src = Currentcrest;
 
       if (this.props.bro.src !== undefined){
           src = this.props.bro.src;
@@ -24,7 +25,7 @@ export default class BootstrapCard extends React.Component {
           <div key={this.props.bro.bname} className="card bg-dark text-white" style={{width: "18rem", margin: "20px"}} 
           onMouseOver={() => this.setState({hovered: true})} onMouseOut={()=>this.setState({hovered: false})}
           onClick={()=>this.setState({selected: !this.state.selected,hovered: false}) } >
-            <div className="brotherimgbackdrop card-img-top" style={{backgroundImage:`url("${src}")`}}>
+            <div className="brotherimgbackdrop card-img-top" style={{backgroundImage:`url("${src}")`,backgroundColor:"#1a1a1a"}}>
               <div className="brotheroverlay" style={{overflow:"hidden",visibility:`${shown}`  }}>
                 <div style={{color:"white", padding:20}}>
                   <div style={{float:"left",width:110}}>Brother Name:</div><div style={{float:"left", width:130}}>{this.props.bro.bname}</div>

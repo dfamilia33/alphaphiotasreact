@@ -42,7 +42,7 @@ export default function Index() {
               <div id="firstsectiontext" >
                 Our chapter stems from the first Latin American student organization in the United States formed at Rensselaer Polytechnic
                 Institute in the early 19th century, and has since expanded to form the first Latino Fraternity in the world. <br></br><br></br>
-                Phi Iota Alpha was founded for the purpose of effecting the social, economic, and political union of the Latin American nations throuh the 
+                Phi Iota Alpha was founded for the purpose of effecting the social, economic, and political union of the Latin American nations through the 
                 spirit of Pan-Americanism. As well as emphasizing the importance of Latin America's past, we strive to become leaders to promote
                 the advancement of Latinos on campus, in the local community, and throughout the hemisphere. <br></br>
                 <Button variant="light" href="/about" className="learnmorebutton">Learn more</Button>

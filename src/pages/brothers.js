@@ -14,6 +14,9 @@ import Powerspf from "../../static/src/img/powers.jpeg"
 import Marvinpf from "../../static/src/img/marvinpf.jpeg"
 import Tonypf from "../../static/src/img/tony.jpeg"
 import Benpf from "../../static/src/img/ben.jpeg"
+import Gavinpf from "../../static/src/img/gavinpf.jpeg"
+import Khaledpf from "../../static/src/img/khaledpf.jpeg"
+import Andrespf from "../../static/src/img/andres.jpg"
 import DRflag from "../../static/src/img/4x3/do.svg"
 import PRflag from "../../static/src/img/4x3/pr.png"
 import COflag from "../../static/src/img/4x3/co.svg"
@@ -35,7 +38,7 @@ export default function Brothers() {
   const bros = [
     {
       name:"Andres Almeida",
-      bname:"Benkos Bioho",
+      bname:"Benkos Biohó",
       line:"Los Rumis (Spring '19)",
       major:["Mechanical Engineering"],
       minor:["Computer Science"],
@@ -43,6 +46,7 @@ export default function Brothers() {
       hometown:"Cartagena, CO",
       nationality:["Colombian"],
       position:"Academic Chair",
+      src:Andrespf,
       flagsrc:[COflag],
     },
     {
@@ -237,17 +241,19 @@ export default function Brothers() {
       hometown:"Brooklyn, NY",
       nationality:["Egyptian"],
       position:"Vice President",
+      src:Khaledpf,
       flagsrc:[EGflag],
     },
     {
       name:"Gavin Tomlinson",
       bname:"Sfigato",
       line:"Uptown (Spring '18)",
-      major:["Egnineering"],
+      major:["Aerospace Engineering"],
       graduation:"2021",
       hometown:"Bronx, NY",
       nationality:["Jamaican"],
       position:"Fundraising Chair",
+      src:Gavinpf,
       flagsrc:[JMflag],
     },
     {

@@ -61,6 +61,17 @@ export default function Brothers() {
       flagsrc:[MXflag],
     },
     {
+      name:"Carlos Avila",
+      bname:"Cora",
+      line:<div>Los Chavos del Ocho <br></br> (Fall '16)</div>,
+      major:["Mechanical Engineering"],
+      graduation:"2020",
+      hometown:"Phoenix, AZ",
+      nationality:["Mexican"],
+      position:"Secretary",
+      flagsrc:[MXflag],
+    },
+    {
       name: "Ben Blake",
       bname:"Kahlo",
       line:"Los Turistas (Fall '17)",
@@ -277,7 +288,7 @@ export default function Brothers() {
       <hr></hr>
       <div className="boxContainer" style={{ "position": "absolute","width": "90%", "left":"5%", }}>
         {bros.map((person,index) => (
-          <BootstrapCard bro={person}/>
+          <BootstrapCard  bro={person}/>
         ))}
 
       </div>

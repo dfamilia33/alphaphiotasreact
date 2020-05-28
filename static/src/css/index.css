@@ -118,12 +118,12 @@ body {
 
 
 
-.card {
+.brocard {
     box-shadow: 0px 1px 10px 1px  #cccccc;
 
 }
 
-.card:hover {
+.brocard:hover {
     box-shadow: 0px 1px 20px 5px  #b30000;
     cursor: pointer;
     
@@ -179,6 +179,12 @@ body {
     
 }
 
+#memberheader {
+    width: 100%;
+    height:300px;
+
+}
+
 .parallax {
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -191,8 +197,7 @@ body {
     background-position: center 75%;
     width:100%;
     height:300px;
-    
-    
+      
 }
 
 #indexparallax {
@@ -201,7 +206,14 @@ body {
     width:100%;
     height:50vh;
     
-    
+}
+
+#memberparallax {
+    background-image: url("../img/tabling.jpeg");
+    background-position: center 75%;
+    width:100%;
+    height:300px;
+      
 }
 
 #indexparallaxoverlay {
@@ -213,7 +225,7 @@ body {
 
 #candidacytext {
     width:750px;
-    left:20%;
+    left:25%;
     top:40%;
     position:relative;
     color:white;
@@ -273,7 +285,7 @@ body {
     .membershipbutton {
         float:left;
         margin-top:0px;
-        margin-left:10px;
+        margin-left:0px;
     }
 
 }
@@ -353,7 +365,7 @@ body {
 
 .meetbrobox {
     width:800px;
-    left:40%;
+    left:35%;
     position:relative;
     margin-bottom:100px;
 }
@@ -361,7 +373,7 @@ body {
 @media (max-width: 768px) {
     .meetbrobox {
         width:300px;
-        left:10%;
+        left:15%;
     }
 }
 
@@ -371,6 +383,58 @@ body {
 }
 
 .meetbrobox h2 {
-    width:400px;
+    width:290px;
+    float:left;
 
+}
+
+#brotherindex h1{
+    font-size: 64px;
+    color:white;
+    left:30%;
+    position: relative;
+    margin-top:150px;
+    margin-bottom:100px;
+    width:60%;
+}
+
+@media (max-width: 768px) {
+    #brotherindex h1{
+        font-size: 32px;
+        left: 15%;
+    }
+
+
+}
+
+.brotherbutton {
+    float:left;
+    font-weight: bold;
+    
+}
+
+.brotherbutton:hover {
+    box-shadow: 0 0px 10px 5px #cccccc;
+   
+}
+
+.aboutbody {
+    color:white;
+    margin-top: 100px;
+}
+
+.aboutbody h1 {
+    text-shadow:  0px 0px 5px white;
+}
+
+.benefitsbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.benefitcard {
+    margin:50px;
+    color:white;
+    box-shadow: 0 0px 10px 5px #cccccc;
 }

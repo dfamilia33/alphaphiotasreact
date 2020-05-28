@@ -70,7 +70,7 @@ export default function Index() {
               <img id = "stepupimg" src={Stepup}></img>
               
               <div id="firstsectiontext" >
-                Our chapter stems from the first Latin American student organization in the United States formed at Rensselaer Polytechnic
+                Our chapter stems from the first Latin American student organization in the United States established at Rensselaer Polytechnic
                 Institute in the early 19th century, and has since expanded to form the first Latino Fraternity in the world. <br></br><br></br>
                 Phi Iota Alpha was founded for the purpose of effecting the social, economic, and political union of the Latin American nations through the 
                 spirit of Pan-Americanism. As well as emphasizing the importance of Latin America's past, we strive to become leaders to promote
@@ -90,7 +90,7 @@ export default function Index() {
               </div>
             </div>
             <div id= "brotherindex" >
-              <h1 className="Broheader">Meet our Eboard!</h1>
+              <h1>Meet our Eboard!</h1>
 
               <div id="eboardbox">
                 {eboard.map((person,index) => (
@@ -101,7 +101,7 @@ export default function Index() {
               <br></br>
               <div className="meetbrobox">
                 <h2 style={{color:"white"}}>Meet our brothers!</h2>
-                <Button style={{float:"left"}} variant="light" href="/brothers">Brothers</Button>
+                <Button variant="light" href="/brothers" className="brotherbutton">Brothers</Button>
                 
               </div>
 

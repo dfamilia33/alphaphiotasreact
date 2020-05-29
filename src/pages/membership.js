@@ -1,6 +1,9 @@
 import React from "react"
 import Toolbar from "../components/toolbar"
 import Benefitcard from "../components/benefitcard"
+import Image from 'react-bootstrap/Image'
+import Recruitmentchairimg from "../../static/src/img/cristianfranquizsq.jpeg"
+import Eboardcard from "../components/eboardcard"
 
 const benefits = [
 
@@ -75,9 +78,14 @@ export default function Membership() {
             <Benefitcard item={item}/>
           ))}
       </div>
-      <div>
-        Interested?<br></br>
-        Contact: 
+      <div style = {{left:"35%",position:"relative",width:"50%"}}>
+        <div style={{width:"150px",color:"white",float:"left",paddingTop:"140px",fontSize:"20px"}}>
+          Interested?<br></br>
+          Contact: 
+        </div>
+        <div style={{float:"left",width:"300px"}}>
+          <Eboardcard bro={{name:"Christian Franquiz",position:"Recruitment Chair",src:Recruitmentchairimg}}/>
+        </div>
       </div>
 
     </div>

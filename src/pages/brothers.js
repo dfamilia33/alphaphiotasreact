@@ -17,6 +17,7 @@ import Benpf from "../../static/src/img/ben.jpeg"
 import Gavinpf from "../../static/src/img/gavinpf.jpeg"
 import Khaledpf from "../../static/src/img/khaledpf.jpeg"
 import Andrespf from "../../static/src/img/andres.jpg"
+import Josepf from "../../static/src/img/josepf.jpeg"
 import DRflag from "../../static/src/img/4x3/do.svg"
 import PRflag from "../../static/src/img/4x3/pr.png"
 import COflag from "../../static/src/img/4x3/co.svg"
@@ -112,6 +113,7 @@ export default function Brothers() {
       graduation:"2022",
       hometown:"Yonkers, NY",
       nationality:["Honduran"],
+      src:Josepf,
       flagsrc:[HNflag],
     },
     {

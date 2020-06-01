@@ -84,7 +84,7 @@ export default function Membership() {
           Contact: 
         </div>
         <div style={{float:"left",width:"300px"}}>
-          <Eboardcard bro={{name:"Christian Franquiz",position:"Recruitment Chair",src:Recruitmentchairimg}}/>
+          <Eboardcard bro={{name:"Christian Franquiz",position:"Recruitment Chair",email:"franqc@rpi.edu", src:Recruitmentchairimg}}/>
         </div>
       </div>
 

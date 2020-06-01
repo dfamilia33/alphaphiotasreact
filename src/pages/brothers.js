@@ -18,6 +18,7 @@ import Gavinpf from "../../static/src/img/gavinpf.jpeg"
 import Khaledpf from "../../static/src/img/khaledpf.jpeg"
 import Andrespf from "../../static/src/img/andres.jpg"
 import Josepf from "../../static/src/img/josepf.jpeg"
+import Diegopf from "../../static/src/img/diegopf.jpeg"
 import DRflag from "../../static/src/img/4x3/do.svg"
 import PRflag from "../../static/src/img/4x3/pr.png"
 import COflag from "../../static/src/img/4x3/co.svg"
@@ -44,7 +45,7 @@ export default function Brothers() {
       major:["Mechanical Engineering"],
       minor:["Computer Science"],
       graduation:"2022",
-      hometown:"Cartagena, CO",
+      hometown:"Cartagena, Colombia",
       nationality:["Colombian"],
       position:"Academic Chair",
       src:Andrespf,
@@ -99,10 +100,11 @@ export default function Brothers() {
       name:"Diego De Cabanyes",
       bname:"Melchor",
       line:"Los Rumis (Spring '19)",
-      major:["Engineering"],
+      major:["Chemical and Biological Engineering"],
       graduation:"2022",
-      hometown:"Mexico DF, MX",
+      hometown:"Ciudad de México, DF, México",
       nationality:["Mexican"],
+      src:Diegopf,
       flagsrc:[MXflag],
     },
     {

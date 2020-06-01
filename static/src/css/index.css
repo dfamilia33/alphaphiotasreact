@@ -82,6 +82,9 @@ body {
     cursor: pointer;
 
 }
+.fa-envelope:hover {
+    cursor: pointer;
+}
 
 #mobilebar {
     text-align: center;

@@ -5,6 +5,9 @@ import Image from 'react-bootstrap/Image'
 import Recruitmentchairimg from "../../static/src/img/cristianfranquizsq.jpeg"
 import Eboardcard from "../components/eboardcard"
 
+
+
+
 const benefits = [
 
   {
@@ -64,7 +67,12 @@ const benefits = [
   }
 ]
 
+
+
+
+
 export default function Membership() {
+  
   return (
     <div>
       <Toolbar/>
@@ -84,7 +92,7 @@ export default function Membership() {
           Contact: 
         </div>
         <div style={{float:"left",width:"300px"}}>
-          <Eboardcard bro={{name:"Christian Franquiz",position:"Recruitment Chair",email:"franqc@rpi.edu", src:Recruitmentchairimg}}/>
+          <Eboardcard bro={{name:"Christian Franquiz",position:"Recruitment Chair", email:"U2FsdGVkX19agpGscdZNYT8jlnqRZq9hRkB7ObLOZWs=", src:Recruitmentchairimg}}/>
         </div>
       </div>
 

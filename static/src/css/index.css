@@ -254,12 +254,12 @@ body {
 @media (max-width: 768px) {
 
     #candidacytext h2 {
-        font-size: 32px;
+        font-size: 24px;
     
     }
 
     #candidacytext {
-        width:300px;
+        width:240px;
         left:10%;
         top:40%;
         position:relative;
@@ -281,7 +281,7 @@ body {
 @media (max-width: 992px) {
 
     #candidacytext h2 {
-        font-size: 32px;
+        font-size: 24px;
     
     }
 
@@ -365,6 +365,7 @@ body {
     overflow: hidden;
 }
 
+
 .meetbrobox {
     width:800px;
     left:35%;
@@ -373,9 +374,19 @@ body {
 }
 
 @media (max-width: 768px) {
-    .meetbrobox {
-        width:300px;
+    .meetbrobox h2 {
+        width:200px;
         left:15%;
+        font-size:20px;
+    }
+    .meetbrobox {
+        width:200px;
+        left:10%;
+    }
+    .eboardcard {
+        color:white;
+        width:250px;
+        overflow: hidden;
     }
 }
 
@@ -439,4 +450,21 @@ body {
     margin:50px;
     color:white;
     box-shadow: 0 0px 10px 5px #cccccc;
+}
+
+#membercontactinfo {
+    left:35%;
+    position:relative;
+    width:50%;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    #membercontactinfo {
+        left:10%;
+        position:relative;
+        width:50%;
+        margin-bottom: 100px;
+    }
+
 }

@@ -41,7 +41,8 @@ const benefits = [
     title:"Community",
     text:[
           "With our volunteer and philonthropy efforts, brothers are given a chance to directly ",
-          "make an impact on the local community.",
+          "make an impact on the local community. Efforts include park cleanup, Troy Middle School ",
+          "tutoring, and food pantry volunteering.",
         ],
     color:"rgba(206, 17, 38,0.5)",
     
@@ -86,12 +87,12 @@ export default function Membership() {
             <Benefitcard item={item}/>
           ))}
       </div>
-      <div style = {{left:"35%",position:"relative",width:"50%"}}>
+      <div id = "membercontactinfo">
         <div style={{width:"150px",color:"white",float:"left",paddingTop:"140px",fontSize:"20px"}}>
           Interested?<br></br>
           Contact: 
         </div>
-        <div style={{float:"left",width:"300px"}}>
+        <div style={{float:"left",width:"250px"}}>
           <Eboardcard bro={{name:"Christian Franquiz",position:"Recruitment Chair", email:"U2FsdGVkX19agpGscdZNYT8jlnqRZq9hRkB7ObLOZWs=", src:Recruitmentchairimg}}/>
         </div>
       </div>

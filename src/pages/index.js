@@ -5,37 +5,12 @@ import Mobilebar from "../components/mobilebar"
 import Eboardcard from "../components/eboardcard"
 import Button from 'react-bootstrap/Button'
 import Stepup from "../../static/src/img/stepuprensselaersign.png"
-import Image from 'react-bootstrap/Image'
-import Seanpf from "../../static/src/img/seanphulnauthpf.jpg"
-import Khaledpf from "../../static/src/img/khaledpf.jpeg"
-import Benpf from "../../static/src/img/ben.jpeg"
-import Currentcrest from "../../static/src/img/current_crest.png"
+import {bros} from "../objects/bros.js"
 //import Img from "gatsby-image"
 //import { useStaticQuery, graphql} from "gatsby"
 
 const eboard = [
-  {
-    name:"Carlos Avila",
-    position:"Secretary",
-    src:Currentcrest,
-  },
-  {
-    name:"Sean Phulnauth",
-    position:"President",
-    src: Seanpf,
-
-  },
-  {
-    name:"Khaled Soliman",
-    position:"Vice President",
-    src:Khaledpf,
-  },
-  {
-    name: "Ben Blake",
-    position:"Treasurer",
-    src:Benpf,
-  },
-
+  bros[2],bros[11],bros[18],bros[3]
 ]
 
 export default function Index() {

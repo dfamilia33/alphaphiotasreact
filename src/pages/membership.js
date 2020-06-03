@@ -1,9 +1,8 @@
 import React from "react"
 import Toolbar from "../components/toolbar"
 import Benefitcard from "../components/benefitcard"
-import Image from 'react-bootstrap/Image'
-import Recruitmentchairimg from "../../static/src/img/cristianfranquizsq.jpeg"
 import Eboardcard from "../components/eboardcard"
+import {bros} from "../objects/bros.js"
 
 
 
@@ -93,7 +92,7 @@ export default function Membership() {
           Contact: 
         </div>
         <div style={{float:"left",width:"250px"}}>
-          <Eboardcard bro={{name:"Christian Franquiz",position:"Recruitment Chair", email:"U2FsdGVkX19agpGscdZNYT8jlnqRZq9hRkB7ObLOZWs=", src:Recruitmentchairimg}}/>
+          <Eboardcard bro={bros[8]} />
         </div>
       </div>
 

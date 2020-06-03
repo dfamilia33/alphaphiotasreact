@@ -14,6 +14,10 @@ function decrypt(message = '', key = ''){
     return decryptedMessage;
 }
 
+/* !!!!!!!!!!! key: 1931 !!!!!!!!!!!!!!!!!! */
+/* encrypt emails to avoid bot attacks */
+
+
 export default class Eboardcard extends React.Component{
 
 

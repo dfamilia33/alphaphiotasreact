@@ -75,9 +75,10 @@ export default function Membership() {
   
   return (
     <div>
-      <Toolbar/>
+      <Toolbar page="membership"/>
       <div id="memberheader" >
-        <div id="memberparallax" className="parallax">       
+        <div id="memberparallax" className="parallax"> 
+          <h2 className="overheader">Membership</h2>          
         </div>
       </div>
       <h1 style={{ color: `white`,textAlign:"center",margin:"100px",textShadow: "0px 0px 5px white" }}>Benefits</h1>

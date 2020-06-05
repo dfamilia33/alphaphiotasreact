@@ -188,11 +188,15 @@ body {
 
 }
 
+#contactheader {
+    width: 100%;
+    height:300px;
+}
 .parallax {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-
+    
 }
 
 #aboutparallax {
@@ -200,7 +204,8 @@ body {
     background-position: center 75%;
     width:100%;
     height:300px;
-      
+    padding-top:100px;
+    
 }
 
 #indexparallax {
@@ -209,6 +214,7 @@ body {
     width:100%;
     height:50vh;
     
+    
 }
 
 #memberparallax {
@@ -216,6 +222,16 @@ body {
     background-position: center 75%;
     width:100%;
     height:300px;
+    padding-top:100px;
+      
+}
+
+#contactparallax {
+    background-image: url("../img/fiaSoccer.jpeg");
+    background-position: center 60%;
+    width:100%;
+    height:300px;
+    padding-top:100px;
       
 }
 
@@ -434,6 +450,7 @@ body {
 .aboutbody {
     color:white;
     margin-top: 100px;
+    padding-bottom: 100px;
 }
 
 .aboutbody h1 {
@@ -454,9 +471,9 @@ body {
 
 #membercontactinfo {
     left:35%;
-    position:relative;
+    position:absolute;
     width:50%;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 @media (max-width: 768px) {
@@ -468,3 +485,37 @@ body {
     }
 
 }
+
+.overheader{
+    width:100%;
+    font-size: 64px;
+    text-align: center;
+    color:white;
+    text-shadow:  0px 0px 5px white;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+
+    .overheader{
+        font-size: 48px;
+    }
+
+
+}
+
+.contactfield{
+    float:left;
+    padding-top:100px;
+    margin-left:40%;
+}
+
+@media (max-width: 768px) {
+
+    .contactfield{
+        margin-left:10%;
+    }
+
+}
+
+.grecaptcha-badge { visibility: hidden; }

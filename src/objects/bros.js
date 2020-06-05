@@ -8,7 +8,7 @@ import Jonathonpf from "../../static/src/img/jonathon.jpeg"
 import Cesarpf from "../../static/src/img/cesar.jpeg"
 import Leopf from "../../static/src/img/leo.jpeg"
 import Michaelpf from "../../static/src/img/michael.jpeg"
-import Powerspf from "../../static/src/img/powers.jpeg"
+import Powerspf from "../../static/src/img/powerspf.jpeg"
 import Marvinpf from "../../static/src/img/marvinpf.jpeg"
 import Tonypf from "../../static/src/img/tony.jpeg"
 import Benpf from "../../static/src/img/ben.jpeg"
@@ -46,6 +46,7 @@ import CUflag from "../../static/src/img/4x3/cu.png"
         position:"Academic Chair",
         src:Andrespf,
         flagsrc:[COflag],
+       
         },
         {
         name:"Antonio Anaya",
@@ -69,6 +70,7 @@ import CUflag from "../../static/src/img/4x3/cu.png"
         position:"Secretary",
         src: Currentcrest,
         flagsrc:[MXflag],
+        email:"U2FsdGVkX1/Ipsie69zYs3NFzM4Grg/aM+YQ4yd5d1A=",
         },
         {
         name: "Ben Blake",
@@ -81,6 +83,7 @@ import CUflag from "../../static/src/img/4x3/cu.png"
         position:"Treasurer",
         src:Benpf,
         flagsrc:[ARflag],
+        email:"U2FsdGVkX196AVgFDulpFHj0BPj2SIseV+KOBT1wBms=",
         },
         {
         name:"Cesar Bravo",
@@ -151,6 +154,7 @@ import CUflag from "../../static/src/img/4x3/cu.png"
         hometown:"San Antonio, TX",
         nationality:["Mexican"],
         position:"Community Service Chair",
+        src: Currentcrest,
         flagsrc:[MXflag],
         email:"U2FsdGVkX1+ljWHvGUBvM+dM0EgAQXuNxGKc9JQrRso="
         },
@@ -261,6 +265,7 @@ import CUflag from "../../static/src/img/4x3/cu.png"
         position:"Vice President",
         src:Khaledpf,
         flagsrc:[EGflag],
+        email:"U2FsdGVkX18JZAYxGjZFjA4u0hb7MJT+o3A1U84CF18=",
         },
         {
         name:"Gavin Tomlinson",

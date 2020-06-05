@@ -15,7 +15,12 @@ function decrypt(message = '', key = ''){
 }
 
 /* !!!!!!!!!!! key: 1931 !!!!!!!!!!!!!!!!!! */
-/* encrypt emails to avoid bot attacks */
+/* I encrypted brothers emails with the above encryption scheme
+    using the CryptoJS. When you add new emails you must manually
+    convert the brothers emais with the above function and update bros.js
+    Yes you should not put a key in the code but this is not to
+    stop humans from getting access, just that realistically
+    wont try to brute force encryption schemes*/
 
 
 export default class Eboardcard extends React.Component{
@@ -33,6 +38,8 @@ export default class Eboardcard extends React.Component{
     }
 
     
+    //Brother emails are protected by Encryption and 
+    //Google's Recaptacha tool (I am not a robot)
 
     render(){
         

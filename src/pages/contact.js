@@ -10,6 +10,7 @@ const chairs = [
   bros[11], bros[13], bros[9],bros[19],bros[15],bros[8],bros[10],
 ]
 
+
 export default class Contact extends React.Component {
 
 
@@ -17,7 +18,7 @@ export default class Contact extends React.Component {
     super(props);
 
     this.state = {
-      selected: false,
+      selected: bros[11],
     };
 
     this.select = this.select.bind( this );
@@ -28,10 +29,15 @@ export default class Contact extends React.Component {
     return (
   
       <div >
-        <Toolbar/>
-        <h1 style={{ color: `red` }}>Contact Page Coming Soon</h1>
+        <Toolbar page="contact"/>
+        <div className="contactheader" >
+          <div id="contactparallax" className="parallax"> 
+            <h2 className="overheader">Contact</h2>          
+          </div>
+        </div>
 
-        <div style={{float:"left",paddingTop:"100px",marginLeft:"10%"}}>
+        
+        <div className ="contactfield">
           <Form.Control
             ref={ ref => this.selector = ref }
             as="select"
@@ -53,8 +59,10 @@ export default class Contact extends React.Component {
         </div>
 
         { this.state.selected &&
-          
+                
+
           <Eboardcard style={{float:"left"}} bro={this.state.selected} />
+
           
         }
       </div>

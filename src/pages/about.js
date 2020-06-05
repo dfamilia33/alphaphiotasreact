@@ -4,9 +4,10 @@ import Toolbar from "../components/toolbar"
 export default function About() {
   return (
     <div>
-      <Toolbar/>
+      <Toolbar page="about"/>
       <div id="aboutheader" >
-        <div id="aboutparallax" className="parallax">       
+        <div id="aboutparallax" className="parallax">
+            <h2 className="overheader">About Us</h2>       
         </div>
       </div>
 

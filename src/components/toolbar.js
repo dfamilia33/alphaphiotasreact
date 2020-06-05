@@ -1,5 +1,5 @@
 import React from "react"
-import styled from 'styled-components'
+import styled,{ css } from 'styled-components'
 import logo from "../../static/src/img/phiotalogo.png"
 import Hamburger from "./hamburger"
 import "../../static/src/css/icon.css"
@@ -46,6 +46,9 @@ const Listitem = styled.li`
 	&:active {
 		border-bottom-color: #BC9307;
 	}
+	${props => props.selected && css`
+    	border-bottom-color: #BC9307;
+  	`}
 `
 const Leftitem = styled(Listitem)`
 	float: left;
@@ -54,6 +57,8 @@ const Leftitem = styled(Listitem)`
 	@media (max-width: 768px) {
 		display: none;
 	}
+
+	
 			
 `;
 
@@ -87,6 +92,10 @@ const A = styled.a`
 	&:active {
 		color: #BC9307;
 	}
+
+	${props => props.selected && css`
+		color: #BC9307;
+  	`}
 
 `;
 
@@ -135,10 +144,10 @@ export default class Toolbar extends React.Component {
 					
 					
 					<Ulist>
-						<Leftitem><A href="/about">About Us</A></Leftitem>
-						<Leftitem><A href="/brothers">Brothers</A></Leftitem>
-						<Leftitem><A href="/membership">Membership</A></Leftitem>
-						<Rightitem><A href="/contact">Contact</A></Rightitem>
+						<Leftitem selected={this.props.page == "about"}><A selected={this.props.page == "about"} href="/about">About Us</A></Leftitem>
+						<Leftitem selected={this.props.page == "brothers"} ><A selected={this.props.page == "brothers"} href="/brothers">Brothers</A></Leftitem>
+						<Leftitem selected={this.props.page == "membership"}><A selected={this.props.page == "membership"} href="/membership">Membership</A></Leftitem>
+						<Rightitem selected={this.props.page == "contact"}><A selected={this.props.page == "contact"} href="/contact">Contact</A></Rightitem>
 						<Rightitem className="social"><A href="https://www.facebook.com/alphaphiota/" target="_blank"><i className="fa fa-facebook-square" ></i></A></Rightitem>
 						<Rightitem className="social"><A href="https://www.instagram.com/alphaphiotas/?hl=en" target="_blank" ><i class="fa fa-instagram"></i></A></Rightitem>
 					</Ulist>

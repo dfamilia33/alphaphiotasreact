@@ -13,6 +13,7 @@ const eboard = [
   bros[2],bros[11],bros[18],bros[3]
 ]
 
+
 export default function Index() {
 
   

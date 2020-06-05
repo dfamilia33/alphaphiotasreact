@@ -11,7 +11,7 @@ export default function Brothers() {
 
   return (
     <div>
-      <Toolbar/>
+      <Toolbar page="brothers"/>
       <h1 className="Broheader">Active Brothers</h1>
       <hr></hr>
       <div className="boxContainer" style={{ "position": "absolute","width": "90%", "left":"5%", }}>

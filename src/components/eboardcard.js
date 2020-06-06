@@ -60,10 +60,10 @@ export default class Eboardcard extends React.Component{
                     }
                     {   this.props.bro.email !== undefined && this.state.verified === false &&
                         (
-                            <div>
-                                <i class="fa fa-envelope" style={{fontSize:"36px"}} onClick={this.onSubmit} ></i>
+            
+                            <i class="fa fa-envelope" style={{fontSize:"36px"}} onClick={this.onSubmit} ></i>
               
-                            </div>
+                            
                         )
 
                     }

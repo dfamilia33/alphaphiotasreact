@@ -243,7 +243,7 @@ body {
 }
 
 #candidacytext {
-    width:750px;
+    width:650px;
     left:25%;
     top:40%;
     position:relative;
@@ -267,7 +267,7 @@ body {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
     #candidacytext h2 {
         font-size: 24px;
@@ -383,20 +383,15 @@ body {
 
 
 .meetbrobox {
-    width:800px;
+    width:450px;
     left:35%;
     position:relative;
     margin-bottom:100px;
 }
 
 @media (max-width: 768px) {
-    .meetbrobox h2 {
-        width:200px;
-        left:15%;
-        font-size:20px;
-    }
     .meetbrobox {
-        width:200px;
+        width:150px;
         left:10%;
     }
     .eboardcard {
@@ -415,6 +410,14 @@ body {
     width:290px;
     float:left;
 
+}
+
+@media (max-width: 768px) {
+    .meetbrobox h2 {
+        width:200px;
+        left:15%;
+        font-size:20px;
+    }
 }
 
 #brotherindex h1{
@@ -519,3 +522,10 @@ body {
 }
 
 .grecaptcha-badge { visibility: hidden; }
+
+@media (max-width: 400px) {
+    #aboutcrest {
+        width: 80%;
+    }
+}
+

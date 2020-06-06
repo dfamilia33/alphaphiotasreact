@@ -6,6 +6,7 @@ import Eboardcard from "../components/eboardcard"
 import Button from 'react-bootstrap/Button'
 import Stepup from "../../static/src/img/stepuprensselaersign.png"
 import {bros} from "../objects/bros.js"
+import Application from "../components/app"
 //import Img from "gatsby-image"
 //import { useStaticQuery, graphql} from "gatsby"
 
@@ -19,6 +20,7 @@ export default function Index() {
   
     return (
         <div>
+            <Application page="Home"/>
             <Toolbar/> 
             <div className = "imgcontainer">
               <div className = "overlayingtextbox">
@@ -82,9 +84,6 @@ export default function Index() {
               </div>
 
             </div>
-          
-
-       
 
             <Mobilebar/>
         </div>

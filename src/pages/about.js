@@ -1,9 +1,12 @@
 import React from "react"
 import Toolbar from "../components/toolbar"
+import Application from "../components/app"
+
 
 export default function About() {
   return (
     <div>
+    <Application page="About Us"/>
       <Toolbar page="about"/>
       <div id="aboutheader" >
         <div id="aboutparallax" className="parallax">
@@ -65,7 +68,7 @@ export default function About() {
         <br></br>
         <div className="row">
             <div className="col-sm-4">
-                <img src="https://static1.squarespace.com/static/59ab06e1d7bdcefdcdbaef53/t/5a3df30a9140b75e1958a487/1514009413831/current_crest.png?format=500w" alt=""/>
+                <img id="aboutcrest" src="https://static1.squarespace.com/static/59ab06e1d7bdcefdcdbaef53/t/5a3df30a9140b75e1958a487/1514009413831/current_crest.png?format=500w" alt=""/>
             </div>
             <div className="col-sm-8">
                 <p>

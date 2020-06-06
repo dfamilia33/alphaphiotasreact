@@ -3,6 +3,7 @@ import Toolbar from "../components/toolbar"
 import Benefitcard from "../components/benefitcard"
 import Eboardcard from "../components/eboardcard"
 import {bros} from "../objects/bros.js"
+import Application from "../components/app"
 
 
 
@@ -14,14 +15,14 @@ const benefits = [
     text:[
           "Our chapter promotes leadership in the Rensselaer community amognst our brothers. ",
           "Brothers are encouraged to spearhead events, lead service projects, and hold workshops ",
-          "for the campus community"
+          "for the campus community."
         ],
     color:"rgba(252, 209, 22,0.5)",
   },
   {
     title:"Academic",
     text:[
-          "Our academic chair keeps tabs on each brother to make sure they are excelling ",
+          "The academic chair keeps tabs on each brother to make sure they are excelling ",
           "in their academic coursework. Academic assistance is often given by upperclassmen ",
           "and even alumni to ensure brothers recieve the support they need."
          ],
@@ -30,7 +31,7 @@ const benefits = [
   {
     title:"Professional",
     text:[
-          "The professional network is a world wide network of brothers, with many at top ",
+          "Become part of a world-wide network of academics and professionals. Many alumni can be found at top ",
           "tech, finance, research, and academic institutions. Brothers often tap into this ",
           "network for career guidance and job opportunites.",
         ],
@@ -41,7 +42,7 @@ const benefits = [
     text:[
           "With our volunteer and philonthropy efforts, brothers are given a chance to directly ",
           "make an impact on the local community. Efforts include park cleanup, Troy Middle School ",
-          "tutoring, and food pantry volunteering.",
+          "tutoring, food pantry, and Troy Black Lives Matter rally volunteering.",
         ],
     color:"rgba(206, 17, 38,0.5)",
     
@@ -59,9 +60,9 @@ const benefits = [
   {
     title:"Culture",
     text:[
-          "The fraternity sponsors many cultural activities on campus. Every year the fraternity ",
+          "We are proud to have brothers from around the world, not just Latin America. Every year the fraternity ",
           "holds workshops and activities to celebrate Latinx Heritage month. Brothers are encouraged ",
-          "to learn about and celebrate their respective cultures."
+          "to learn about and engage in their respective cultures."
     ],
     color:"rgba(252, 209, 22,0.5)",
   }
@@ -75,6 +76,7 @@ export default function Membership() {
   
   return (
     <div>
+    <Application page="Membership"/>
       <Toolbar page="membership"/>
       <div id="memberheader" >
         <div id="memberparallax" className="parallax"> 

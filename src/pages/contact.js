@@ -47,7 +47,7 @@ export default class Contact extends React.Component {
             id="inlineFormCustomSelectPref"
             custom
             style={{width:"200px"}}
-            onClick={() => this.select(this.selector.selectedIndex)}
+            onChange={() => this.select(this.selector.selectedIndex)}
           >
             
             <option value="1">General</option>

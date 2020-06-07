@@ -500,6 +500,7 @@ body {
 }
 
 .overheader{
+    padding-top: 50px;
     width:100%;
     font-size: 64px;
     text-align: center;

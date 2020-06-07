@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button'
 import Stepup from "../../static/src/img/stepuprensselaersign.png"
 import {bros} from "../objects/bros.js"
 import Application from "../components/app"
+import Footer from "../components/footer"
 //import Img from "gatsby-image"
 //import { useStaticQuery, graphql} from "gatsby"
 
@@ -84,10 +85,10 @@ export default function Index() {
               </div>
 
             </div>
-
+            <Footer/>
             <Mobilebar/>
         </div>
-             
+            
     )
 
 }

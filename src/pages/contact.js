@@ -6,6 +6,7 @@ import {bros} from "../objects/bros.js"
 import Form from 'react-bootstrap/Form'
 import Eboardcard from "../components/eboardcard"
 import Application from "../components/app"
+import Footer from "../components/footer"
 
 const chairs = [
   bros[11], bros[13], bros[9],bros[19],bros[15],bros[8],bros[10],
@@ -67,6 +68,7 @@ export default class Contact extends React.Component {
 
           
         }
+        <Footer/>
       </div>
 
     )

@@ -1,6 +1,7 @@
 import React from "react"
 import Toolbar from "../components/toolbar"
 import Application from "../components/app"
+import Footer from "../components/footer"
 
 
 export default function About() {
@@ -154,7 +155,7 @@ export default function About() {
       </div>
 
 
-
+    <Footer/>
     </div>
   )
 }

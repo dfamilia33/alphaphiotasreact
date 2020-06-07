@@ -4,6 +4,7 @@ import Benefitcard from "../components/benefitcard"
 import Eboardcard from "../components/eboardcard"
 import {bros} from "../objects/bros.js"
 import Application from "../components/app"
+import Footer from "../components/footer"
 
 
 
@@ -98,7 +99,7 @@ export default function Membership() {
           <Eboardcard bro={bros[8]} />
         </div>
       </div>
-
+      <Footer/>
     </div>
   )
 }

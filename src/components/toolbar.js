@@ -5,78 +5,12 @@ import Hamburger from "./hamburger"
 import "../../static/src/css/icon.css"
 
 
-const Menu = styled.div`
-	float: right;
-	height: 60px;
-	line-height: 60px;
-	@media (min-width: 768px) {
-		display: None;
-	}
-
-`
 
 
-const Navbox = styled.div`
-	-webkit-box-shadow: 0 8px 20px -10px #cccccc;
-    -moz-box-shadow: 0 8px 20px -10px #cccccc;
-    box-shadow: 0 10px 20px -16px #cccccc;
-	background-color: #b30000;
-	
-`
 
 
-const Ulist = styled.ul`
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	
-`;
 
-const Listitem = styled.li`
-	display: inline;
-	border-style: solid;
-	border-color: #b30000;
-	border-bottom: 3px solid transparent;
-	border-left: none;
-  	border-right: none;
-	&:hover {
-		border-bottom-color: #BC9307;
-	}
-	&:active {
-		border-bottom-color: #BC9307;
-	}
-	${props => props.selected && css`
-    	border-bottom-color: #BC9307;
-  	`}
-`
-const Leftitem = styled(Listitem)`
-	float: left;
-	height: 60px;
-	line-height: 60px;
-	@media (max-width: 768px) {
-		display: none;
-	}
 
-	
-			
-`;
-
-const Rightitem = styled(Listitem)`
-	float: right;
-	height: 60px;
-	line-height: 60px;
-	@media (max-width: 768px) {
-		display: none;
-	}
-`
-
-const Logo = styled.div`
-	@media (min-width: 768px) {
-		float: left;
-	}
-
-`
 
 const A = styled.a`
 	display: block; 
@@ -89,9 +23,6 @@ const A = styled.a`
 	&:hover {
 		color: #BC9307;
 	}
-	&:active {
-		color: #BC9307;
-	}
 
 	${props => props.selected && css`
 		color: #BC9307;
@@ -99,26 +30,8 @@ const A = styled.a`
 
 `;
 
+// style={{color:`${this.props.page == "about" ? "#BC9307" :"#white"  }`}}
 
-
-
-const Mobilelinks = styled.div`
-	display: ${props => props.display };
-	background-color: #800000;
-	@media (min-width: 768px) {
-		display: None;
-	}
-`
-
-const Vertli = styled.li`
-	font-size:24px;
-
-
-`
-const Lastvert = styled(Vertli)`
-	padding-bottom: 16px;
-
-`
 
 
 
@@ -137,35 +50,35 @@ export default class Toolbar extends React.Component {
 		
 		return (
 			
-			<Navbox>
+			<div className = "Navbox">
 				<div>
-					<Menu onClick={()=>this.toggle()}><Hamburger ></Hamburger></Menu>
-					<Logo><a href="/"><img src={logo} width="200" height="60" data-retina="true" alt="Phi Iota Alpha"></img></a></Logo>
+					<div className="Menu" onClick={()=>this.toggle()}><Hamburger ></Hamburger></div>
+					<div className="Logo"><a href="/"><img src={logo} width="200" height="60" data-retina="true" alt="Phi Iota Alpha"></img></a></div>
 					
 					
-					<Ulist>
-						<Leftitem selected={this.props.page == "about"}><A selected={this.props.page == "about"} href="/about">About Us</A></Leftitem>
-						<Leftitem selected={this.props.page == "brothers"} ><A selected={this.props.page == "brothers"} href="/brothers">Brothers</A></Leftitem>
-						<Leftitem selected={this.props.page == "membership"}><A selected={this.props.page == "membership"} href="/membership">Membership</A></Leftitem>
-						<Rightitem selected={this.props.page == "contact"}><A selected={this.props.page == "contact"} href="/contact">Contact</A></Rightitem>
-						<Rightitem className="social"><A href="https://www.facebook.com/alphaphiota/" target="_blank"><i className="fa fa-facebook-square" ></i></A></Rightitem>
-						<Rightitem className="social"><A href="https://www.instagram.com/alphaphiotas/?hl=en" target="_blank" ><i class="fa fa-instagram"></i></A></Rightitem>
-					</Ulist>
+					<ul className="Ulist">
+						<li className ="Listitem Leftitem" style = {{borderBottomColor: `${this.props.page == "about" ? "#BC9307" :"#b30000"  }` }}><a className="A" style={{color:`${this.props.page == "about" ? "#BC9307" :"#white"  }`}} href="/about">About Us</a></li>
+						<li className ="Listitem Leftitem" style = {{borderBottomColor: `${this.props.page == "brothers" ? "#BC9307" :"#b30000"}` }}><a className="A" style={{color:`${this.props.page == "brothers" ? "#BC9307" :"#white"  }`}} href="/brothers">Brothers</a></li>
+						<li className ="Listitem Leftitem"  style = {{borderBottomColor: `${this.props.page == "membership" ? "#BC9307" :"#b30000"}` }}><a className="A" style={{color:`${this.props.page == "membership" ? "#BC9307" :"#white"  }`}} href="/membership">Membership</a></li>
+						<li className ="Listitem Rightitem" style = {{borderBottomColor: `${this.props.page == "contact" ? "#BC9307" :"#b30000"}` }}><a className="A" style={{color:`${this.props.page == "contact" ? "#BC9307" :"#white"  }`}} href="/contact">Contact</a></li>
+						<li className ="Listitem Rightitem social"><a className="A"  href="https://www.facebook.com/alphaphiota/" target="_blank"><i className="fa fa-facebook-square" ></i></a></li>
+						<li className ="Listitem Rightitem social"><a ClassName="A" id="instalink" href="https://www.instagram.com/alphaphiotas/?hl=en" target="_blank" ><i class="fa fa-instagram"></i></a></li>
+					</ul>
 				</div>
-				<Mobilelinks display={this.state.hidden ? "none" : "block"}>
-					<Ulist>
-						<Vertli><A href="/about">About Us</A></Vertli>
+				<div className="Mobilelinks" style={{display:`${this.state.hidden ? "none" : "block"}` }}>
+					<ul className="Ulist">
+						<li className="Vertli" style={{paddingTop:"16px"}}><a  href="/about">About Us</a></li>
 						<hr></hr>
-						<Vertli><A href="/brothers">Brothers</A></Vertli>
+						<li className="Vertli"><a href="/brothers">Brothers</a></li>
 						<hr></hr>
-						<Vertli><A href="/membership">Membership</A></Vertli>
+						<li className="Vertli"><a href="/membership">Membership</a></li>
 						<hr></hr>
-						<Lastvert><A href="/contact">Contact</A></Lastvert>
-					</Ulist>
+						<li className="Vertli Lastvert"><a href="/contact">Contact</a></li>
+					</ul>
 
-				</Mobilelinks>
+				</div>
 				
-			</Navbox>
+			</div>
 		)
 	}
 }

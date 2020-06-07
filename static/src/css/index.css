@@ -529,3 +529,133 @@ body {
     }
 }
 
+.Menu {
+	float: right;
+	height: 60px;
+	line-height: 60px;
+
+}
+
+@media (min-width: 768px) {
+    .Menu {
+        display: None;
+    }
+}
+
+.Navbox {
+	-webkit-box-shadow: 0 8px 20px -10px #cccccc;
+    -moz-box-shadow: 0 8px 20px -10px #cccccc;
+    box-shadow: 0 10px 20px -16px #cccccc;
+	background-color: #b30000;
+    
+}
+
+
+@media (min-width: 768px) {
+    .Logo {
+        float: left;
+    }
+}
+
+.Mobilelinks {
+
+	background-color: #800000;
+
+}
+
+@media (min-width: 768px) {
+    .Mobilelinks {
+        display: None !important;
+    }
+}
+
+.Vertli {
+	font-size:24px;
+}
+.Lastvert {
+    padding-bottom: 16px;
+}
+
+.Ulist {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;	
+}
+
+.Listitem {
+	display: inline;
+	border-style: solid;
+	border-color: #b30000;
+	border-bottom: 3px solid transparent;
+	border-left: none;
+  	border-right: none;
+	
+
+}
+.Listitem:hover {
+    border-bottom-color: #BC9307;
+}
+
+.Listitem:active {
+    border-bottom-color: #BC9307;
+}
+
+.Leftitem{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+
+}
+@media (max-width: 768px) {
+    .Leftitem{
+        display: none;
+    }
+}
+
+.Rightitem{
+	float: right;
+	height: 60px;
+	line-height: 60px;
+
+}
+
+@media (max-width: 768px) {
+    .Rightitem{
+        display: none;
+    }
+}
+
+.A{
+	display: block; 
+	padding: 0px;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0px 16px;
+	text-decoration: none !important;
+}
+
+.A:hover {
+    color: #BC9307 !important;
+}
+
+#instalink{
+    color:white;
+}
+
+#instalink:hover{
+    color:#BC9307 !important;
+}
+
+.Vertli a{
+    margin-left:20px;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+.Vertli a:active{
+    color:#BC9307 !important
+}
+

@@ -199,6 +199,15 @@ body {
     
 }
 
+@media (max-width: 768px) {
+
+    .parallax {
+        background-attachment: scroll;
+    }
+
+
+}
+
 #aboutparallax {
     background-image: url("../img/current_crest.png");
     background-position: center 75%;

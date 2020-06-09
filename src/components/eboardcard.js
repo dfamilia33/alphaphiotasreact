@@ -1,18 +1,7 @@
 import React from "react"
 import Image from 'react-bootstrap/Image'
 import Recaptcha from 'react-google-invisible-recaptcha';
-import CryptoJS from "crypto-js"
-
-function encrypt(message = '', key = ''){
-    var message = CryptoJS.AES.encrypt(message, key);
-    return message.toString();
-}
-function decrypt(message = '', key = ''){
-    var code = CryptoJS.AES.decrypt(message, key);
-    var decryptedMessage = code.toString(CryptoJS.enc.Utf8);
-
-    return decryptedMessage;
-}
+import {decrypt} from "../objects/bros.js"
 
 /* !!!!!!!!!!! key: 1931 !!!!!!!!!!!!!!!!!! */
 /* I encrypted brothers emails with the above encryption scheme

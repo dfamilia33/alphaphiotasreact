@@ -9,7 +9,7 @@ import Application from "../components/app"
 import Footer from "../components/footer"
 
 const chairs = [
-  bros[11], bros[13], bros[9],bros[19],bros[15],bros[8],bros[10],
+  bros[11], bros[13], bros[9],bros[19],bros[15],bros[8],bros[10],bros[7]
 ]
 
 
@@ -58,6 +58,7 @@ export default class Contact extends React.Component {
             <option value="5">Public Relations</option>
             <option value="6">Recruitment/Rush</option>
             <option value="7">Social Events</option>
+            <option value="8">Web</option>
           </Form.Control>
         </div>
 

@@ -1,7 +1,7 @@
 
 
 
-<h1 align="center">Alpha Phiota React App</h1>
+<h1 align="center">[Alpha Phiota React](https://wizardly-shannon-444527.netlify.app/) App</h1>
 
 <h3 align="center"> Stack </h3>
 

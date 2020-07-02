@@ -29,9 +29,8 @@ export default class Eboardcard extends React.Component{
     
     //Brother emails are protected by Encryption and 
     //Google's Recaptacha tool (I am not a robot)
-
+    
     render(){
-        
         return (
             <div className="eboardcard" >
                 <Image className="eboardpic" src={this.props.bro.src} roundedCircle />
@@ -43,7 +42,7 @@ export default class Eboardcard extends React.Component{
                         (
                             <Recaptcha
                             ref={ ref => this.recaptcha = ref }
-                            sitekey="6LeyOv8UAAAAACrgu3rJugBXtqZDPEPMPv3p1chV"
+                            sitekey={`${process.env.RECAPTCHA_SITEKEY}`}
                             onResolved={ this.onResolved } />
                         )
                     }

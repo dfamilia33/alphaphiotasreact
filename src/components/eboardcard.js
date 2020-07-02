@@ -42,7 +42,7 @@ export default class Eboardcard extends React.Component{
                         (
                             <Recaptcha
                             ref={ ref => this.recaptcha = ref }
-                            sitekey={`${process.env.RECAPTCHA_SITEKEY}`}
+                            sitekey="6LeyOv8UAAAAACrgu3rJugBXtqZDPEPMPv3p1chV"
                             onResolved={ this.onResolved } />
                         )
                     }

@@ -14,7 +14,6 @@
 
 <h4> Styling</h4>
 
-* Styled Components (CSS-in-JS)
 * React Bootstrap
 
 
@@ -33,7 +32,6 @@
 <h5> Familiarity with: </h5>
 
   * React
-  * Object Oriented Programming
   
 <h5> Bonus </h5>
 

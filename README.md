@@ -3,7 +3,7 @@
 
 <h1 align="center">Alpha Phiota React App</h1>
 
-[phiota.net](phiota.net)
+[phiota.net](https://phiota.net/)
 
 <h3 align="center"> Stack </h3>
 

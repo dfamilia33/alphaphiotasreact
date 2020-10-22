@@ -3,7 +3,7 @@
 
 <h1 align="center">Alpha Phiota React App</h1>
 
-Current Progress: https://wizardly-shannon-444527.netlify.app/
+[phiota.net](phiota.net)
 
 <h3 align="center"> Stack </h3>
 

@@ -3,7 +3,7 @@
 
 <h1 align="center">Alpha Phiota React App</h1>
 
-Current Progress: https://wizardly-shannon-444527.netlify.app/
+[phiota.net](https://phiota.net/)
 
 <h3 align="center"> Stack </h3>
 
@@ -14,7 +14,6 @@ Current Progress: https://wizardly-shannon-444527.netlify.app/
 
 <h4> Styling</h4>
 
-* Styled Components (CSS-in-JS)
 * React Bootstrap
 
 
@@ -33,7 +32,6 @@ Current Progress: https://wizardly-shannon-444527.netlify.app/
 <h5> Familiarity with: </h5>
 
   * React
-  * Object Oriented Programming
   
 <h5> Bonus </h5>
 

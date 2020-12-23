@@ -36,8 +36,8 @@ export default class Eboardcard extends React.Component{
                 <Image className="eboardpic" src={this.props.bro.src} roundedCircle />
                 <div className="eboardcardtext">
 
-                    <div style={{marginTop:"20px"}}>{this.props.bro.name}</div>
-                    <div >{this.props.bro.position}</div>
+                    <div style={{marginTop:"20px",width:"200px"}}>{this.props.bro.name}</div>
+                    <div style={{width:"200px"}} >{this.props.bro.position}</div>
                     {   this.props.bro.email !== undefined &&
                         (
                             <Recaptcha

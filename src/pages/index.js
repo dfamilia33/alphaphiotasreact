@@ -12,7 +12,7 @@ import Footer from "../components/footer"
 //import { useStaticQuery, graphql} from "gatsby"
 
 const eboard = [
-  bros[2],bros[11],bros[18],bros[3]
+  bros[1],bros[11],bros[6],bros[14]
 ]
 
 

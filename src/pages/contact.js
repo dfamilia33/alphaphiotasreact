@@ -9,7 +9,7 @@ import Application from "../components/app"
 import Footer from "../components/footer"
 
 const chairs = [
-  bros[11], bros[13], bros[9],bros[19],bros[15],bros[8],bros[10],bros[7]
+  bros[11], bros[13], bros[17],bros[9],bros[14],bros[1],bros[10],bros[7]
 ]
 
 

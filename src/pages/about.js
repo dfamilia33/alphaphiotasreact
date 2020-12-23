@@ -14,7 +14,7 @@ export default function About() {
             <h2 className="overheader">About Us</h2>       
         </div>
       </div>
-
+    
       <div className="container text-center aboutbody">
         <h1>Origins</h1>
         <br></br>

@@ -96,7 +96,7 @@ export default function Membership() {
           Contact: 
         </div>
         <div style={{float:"left",width:"250px"}}>
-          <Eboardcard bro={bros[8]} />
+          <Eboardcard bro={bros[1]} />
         </div>
       </div>
       <Footer/>

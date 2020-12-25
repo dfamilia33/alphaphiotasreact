@@ -60,6 +60,7 @@ export default class Toolbar extends React.Component {
 						<li className ="Listitem Leftitem" style = {{borderBottomColor: `${this.props.page == "about" ? "#BC9307" :"#b30000"  }` }}><a className="A" style={{color:`${this.props.page == "about" ? "#BC9307" :"#white"  }`}} href="/about">About Us</a></li>
 						<li className ="Listitem Leftitem" style = {{borderBottomColor: `${this.props.page == "brothers" ? "#BC9307" :"#b30000"}` }}><a className="A" style={{color:`${this.props.page == "brothers" ? "#BC9307" :"#white"  }`}} href="/brothers">Brothers</a></li>
 						<li className ="Listitem Leftitem"  style = {{borderBottomColor: `${this.props.page == "membership" ? "#BC9307" :"#b30000"}` }}><a className="A" style={{color:`${this.props.page == "membership" ? "#BC9307" :"#white"  }`}} href="/membership">Membership</a></li>
+						<li className ="Listitem Leftitem"  style = {{borderBottomColor: `${this.props.page == "alumni" ? "#BC9307" :"#b30000"}` }}><a className="A" style={{color:`${this.props.page == "alumni" ? "#BC9307" :"#white"  }`}} href="/alumni">Alumni</a></li>
 						<li className ="Listitem Rightitem" style = {{borderBottomColor: `${this.props.page == "contact" ? "#BC9307" :"#b30000"}` }}><a className="A" style={{color:`${this.props.page == "contact" ? "#BC9307" :"#white"  }`}} href="/contact">Contact</a></li>
 						<li className ="Listitem Rightitem social"><a className="A"  href="https://www.facebook.com/alphaphiota/" target="_blank"><i className="fa fa-facebook-square" ></i></a></li>
 						<li className ="Listitem Rightitem social"><a ClassName="A" id="instalink" href="https://www.instagram.com/alphaphiotas/?hl=en" target="_blank" ><i class="fa fa-instagram"></i></a></li>
@@ -72,6 +73,8 @@ export default class Toolbar extends React.Component {
 						<li className="Vertli"><a href="/brothers">Brothers</a></li>
 						<hr></hr>
 						<li className="Vertli"><a href="/membership">Membership</a></li>
+						<hr></hr>
+						<li className="Vertli"><a href="/alumni">Alumni</a></li>
 						<hr></hr>
 						<li className="Vertli Lastvert"><a href="/contact">Contact</a></li>
 					</ul>

@@ -13,7 +13,11 @@ export default function Alumni() {
       <div>
       <Application page="Alumni"/>
         <Toolbar page="alumni"/>
-        <div style={{height:"300px"}}></div>
+        <div id="alumniheader">
+          <div id="alumniparallax" className="parallax">
+              <h2 className="overheader">Alumni</h2>       
+          </div>
+        </div>
         <div style={{height:"85vh"}}>
             <img style={{width:"300px"}} src={paypal} alt= "Paypal logo"></img>
             <form action="https://www.paypal.com/donate" method="post" target="_top">

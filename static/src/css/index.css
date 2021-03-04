@@ -706,3 +706,9 @@ body {
     color:#BC9307 !important
 }
 
+.flex-paypal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

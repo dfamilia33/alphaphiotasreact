@@ -13,7 +13,6 @@ import Marvinpf from "../../static/src/img/marvinpf.jpeg"
 import Tonypf from "../../static/src/img/tony.jpeg"
 import Benpf from "../../static/src/img/ben.jpeg"
 import Gavinpf from "../../static/src/img/gavinpf.jpeg"
-import Khaledpf from "../../static/src/img/khaledpf.jpeg"
 import Andrespf from "../../static/src/img/andres.jpg"
 import Josepf from "../../static/src/img/josepf.jpeg"
 import Diegopf from "../../static/src/img/diegopf.jpeg"
@@ -281,18 +280,6 @@ import CryptoJS from "crypto-js"
         src:Michaelpf,
         flagsrc:[MXflag],
         email:"U2FsdGVkX1+JvBECnY2i6/JChS5ZTgKIlxJIp84Xz9zt/0N/p2DCp5P8Idvtcniw",
-        },
-        {
-        name:"Khaled Soliman",
-        bname:"Nimr",
-        line:<div>Los Cuatro Elementos<br></br>(Fall '19)</div>,
-        major:["Aerospace Engineering"],
-        graduation:"2021",
-        hometown:"Brooklyn, NY",
-        nationality:["Egyptian"],
-        src:Khaledpf,
-        flagsrc:[EGflag],
-        email:"U2FsdGVkX197waUU8c6hPgPuQ1ol607SOmrnNaYvqlg=",
         },
         {
         name:"Gavin Tomlinson",

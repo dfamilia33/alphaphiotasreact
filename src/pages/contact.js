@@ -9,7 +9,7 @@ import Application from "../components/app"
 import Footer from "../components/footer"
 
 const chairs = [
-  bros[11], bros[13], bros[17],bros[9],bros[14],bros[1],bros[10],bros[7]
+  bros[1], bros[3], bros[10],bros[8],bros[11],bros[5],bros[9],bros[0]
 ]
 
 
@@ -20,7 +20,7 @@ export default class Contact extends React.Component {
     super(props);
 
     this.state = {
-      selected: bros[11],
+      selected: bros[4],
     };
 
     this.select = this.select.bind( this );

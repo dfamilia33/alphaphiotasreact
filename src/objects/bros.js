@@ -234,7 +234,7 @@ import CryptoJS from "crypto-js"
         major:["Aeronautical Engineering"],
         graduation:"2023",
         hometown:"Newark, NJ",
-        nationality:["Peruivan","Italian"],
+        nationality:["Peruvian","Italian"],
         position:"Social Chair",
         src: Molfinopf,
         flagsrc:[PEflag,ITflag],

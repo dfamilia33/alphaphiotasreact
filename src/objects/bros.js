@@ -165,7 +165,7 @@ import CryptoJS from "crypto-js"
         bname:"Mariposa",
         line:<div>Los Cuatro Elementos<br></br>(Fall '19)</div>,
         major:["Computer Science"],
-        minor:["Information Technology & Web Science"],
+        // minor:["Information Technology & Web Science"],
         graduation:"2022",
         hometown:"Waterbury, CT",
         nationality:["Dominican"],
@@ -215,7 +215,7 @@ import CryptoJS from "crypto-js"
         email:"U2FsdGVkX1/bYz4oJrWBw4FysaRoMGSOy3Djdq5jGdE5GQWsDUVJ4YkPkQ1Zx3Pv",
         },
         {
-        name: "Marc Christopher Melendez  ",
+        name: "Marc Christopher Melendez",
         bname:"Ustalonado",
         line:<div>Los Caribeños<br></br>(Spring '21)</div>,
         major:["Electrical Engineering"],

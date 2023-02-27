@@ -32,11 +32,12 @@
     "yarn": "^1.22.4"
   },
   "devDependencies": {
+    "@nuxt/image": "^0.7.1",
     "prettier": "2.0.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-hello-world.git"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

@@ -1,4 +1,3 @@
-import React from "react"
 import Franquizpf from "../../static/src/img/cristianfranquizsq.jpeg"
 import Familiapf from "../../static/src/img/dfprofile.jpg"
 import Seanpf from "../../static/src/img/seanphulnauthpf.jpg"
@@ -22,6 +21,8 @@ import Marcpf from "../../static/src/img/marcprofilepc.jpg"
 import DiegoTpf from "../../static/src/img/diegoTpf.jpg"
 import Zurielpf from "../../static/src/img/zurielpf.jpg"
 import Cristianpf from "../../static/src/img/cristianpf.png"
+import MichaelJoshpf from "../../static/src/img/michaeljoshpf.jpg"
+import MichaelMpf from "../../static/src/img/michaelmpf.jpg"
 import Currentcrest from "../../static/src/img/current_crest.png"
 import DRflag from "../../static/src/img/4x3/do.svg"
 import PRflag from "../../static/src/img/4x3/pr.png"
@@ -37,6 +38,8 @@ import EGflag from "../../static/src/img/4x3/eg.svg"
 import JMflag from "../../static/src/img/4x3/jm.svg"
 import CUflag from "../../static/src/img/4x3/cu.png"
 import PLflag from "../../static/src/img/4x3/pl.svg"
+import PHflag from "../../static/src/img/4x3/ph.svg"
+
 import CryptoJS from "crypto-js"
 //import {emails} from "../../emails.js"
 
@@ -53,7 +56,7 @@ export function decrypt(message = '', key = '') {
     return decryptedMessage;
 }
 
-const newEmails = ['ojitos@phiota.net', 'huelio@phiota.net', 'ustalonado@phiota.net']
+const newEmails = ['montesinos@phiota.net', 'cuauhtlatoatzin@phiota.net', 'cerealo@phiota.net', 'meloso@phiota.net', 'uarhipeni@phiota.net']
 /********** Contact Site Admin for email.js to append to encrypted email list   ************/
 
 for (let email of newEmails) {
@@ -69,9 +72,22 @@ export const bros = [
         graduation: "2023",
         hometown: "New Rochelle, NY",
         nationality: ["Mexican"],
+        position: ["Alumni Relations"],
         src: Tonypf,
         flagsrc: [MXflag],
         email: "U2FsdGVkX19/P9b+rFzNW2htix2lgO8cl/O6ITvNxtTyYKo7lf1nolwQPDOs/wR7",
+    },
+    {
+        name: "Zuriel Aviles",
+        bname: "Cereal",
+        line: " West Side (Spring '22)",
+        major: ["Computer Science"],
+        graduation: "2024",
+        hometown: "Long Beach, CA",
+        position: ["Social Chair, Pledging Committee"],
+        nationality: ["Mexican"],
+        src: Zurielpf,
+        flagsrc: [MXflag]
     },
     {
         name: "Cesar Bravo",
@@ -81,7 +97,7 @@ export const bros = [
         graduation: "2023",
         hometown: "Lindenhurst, NY",
         nationality: ["Peruvian"],
-        position: "Pledging Committee",
+        position: ["Fundraising Chair"],
         src: Cesarpf,
         flagsrc: [PEflag],
         email: "U2FsdGVkX1/qBWmuR5tdVZ77mEnV2HkUEumv4x6pBKMSW5Yc7uZqhJPneEVQdKCA",
@@ -93,24 +109,23 @@ export const bros = [
         major: ["Mechanical Engineering"],
         graduation: "2023",
         hometown: "Bronx, NY",
-        nationality: ["Dominican"],
-        position: "Treasurer",
+        nationality: ["Dominican"], 
         src: Armanipf,
         flagsrc: [DRflag],
         email: "U2FsdGVkX19UE3K1PVK8A0R9AswO3HVmeUV9/o9yQl4wjTwMaHUf97ZJcF2+FeIA",
     },
     {
-        name: "Daniel Familia",
-        bname: "Mariposa",
-        line: "Los Cuatro Elementos (Fall '19)",
-        major: ["Computer Science"],
-        graduation: "2022",
-        hometown: "Waterbury, CT",
-        nationality: ["Dominican"],
-        position: "Vice-president",
-        src: Familiapf,
-        flagsrc: [DRflag],
-        email: "U2FsdGVkX18kfqilD+CSWskUU4NxZXgYiT8eUggnQ+gP1l2F26mTp4XSoGfkUw4V",
+        name: "Michael Fababeir",
+        bname: "Meloso",
+        line: "M&M (Fall '22)",
+        major: ["Computer Science", "Cognitive Science"],
+        graduation: "2023",
+        hometown: "Manchester, NH",
+        position: ["Web Chair"],
+        nationality: ["Filipino"],
+        src: MichaelJoshpf,
+        flagsrc: [PHflag],
+
     },
     {
         name: "Alejandro Lopez",
@@ -120,10 +135,36 @@ export const bros = [
         graduation: "2024",
         hometown: "San Juan, PR",
         nationality: ["Puerto Rican", "Mexican"],
-        poition: "Pledging Committee",
         src: Aljandropf,
         flagsrc: [PRflag, MXflag],
         email: "U2FsdGVkX1/bYz4oJrWBw4FysaRoMGSOy3Djdq5jGdE5GQWsDUVJ4YkPkQ1Zx3Pv",
+    },
+    {
+        name: "Michael Magallon",
+        bname: "Uarhipeni",
+        line: "M&M (Fall '22)",
+        major: ["Business Management"],
+        graduation: "2023",
+        hometown: "Dallas, TX",
+        position: ["Treasurer"],
+        nationality: ["Mexican"],
+        src: MichaelMpf,
+        flagsrc: [MXflag],
+        email: "U2FsdGVkX1+aRlPIs00hoSXIGUtSrzXq2gYY3CM0AQ7SCztTCmvJVLD9Fvure5Hk"
+
+    },
+    {
+        name: "Cristian Mejia",
+        bname: "Montesinos",
+        line: "El Quisqueyano (Fall '21)",
+        major: ["Computer Systems Engineering", "Information Technology & Web Science"],
+        graduation: "2024",
+        hometown: "Paramus, NJ",
+        position: ["Secretary"],
+        nationality: ["Dominican"],
+        src: Cristianpf,
+        flagsrc: [DRflag],
+        email: "U2FsdGVkX1+3Vyg1EDSvXVb0jmOwbnzMytpa86xp9DDXgQizgghURfTQZzmrvTPt",
     },
     {
         name: "Marc Christopher Melendez",
@@ -132,7 +173,7 @@ export const bros = [
         major: ["Electrical Engineering"],
         graduation: "2024",
         hometown: "Queens, NY",
-        position: "Vice-president",
+        position: ["Vice-president, Academic Chair"],
         nationality: ["Puerto Rican", "Polish"],
         src: Marcpf,
         flagsrc: [PRflag, PLflag],
@@ -146,7 +187,7 @@ export const bros = [
         graduation: "2023",
         hometown: "Newark, NJ",
         nationality: ["Peruvian", "Italian"],
-        position: "Social/Risk Management Chair",
+        position: ["Community Service Chair"],
         src: Molfinopf,
         flagsrc: [PEflag, ITflag],
         email: "U2FsdGVkX19+KQlSHOzUysQyVx4avPbtkds9XiRVINf+EL6dHh+7OQBpg3UDi5rt"
@@ -159,7 +200,7 @@ export const bros = [
         graduation: "2023",
         hometown: "Washington Heights, NY",
         nationality: ["Ecuadorian"],
-        position: "President",
+        position: ["President"],
         src: Jonathonpf,
         flagsrc: [ECflag],
         email: "U2FsdGVkX19eMn09CsosmhtFLFUh9suWc/eQ3j8JIJr03wEy+WZcteDezqe8iu0u",
@@ -172,6 +213,7 @@ export const bros = [
         graduation: "2023",
         hometown: "Bronx, NY",
         nationality: ["Mexican"],
+        position: ["Recruitment Chair, Pledging Committee"],
         src: Michaelpf,
         flagsrc: [MXflag],
         email: "U2FsdGVkX1+JvBECnY2i6/JChS5ZTgKIlxJIp84Xz9zt/0N/p2DCp5P8Idvtcniw",
@@ -186,30 +228,6 @@ export const bros = [
         nationality: ["Mexican"],
         src: DiegoTpf,
         flagsrc: [MXflag]
-    },
-    {
-        name: "Zuriel Aviles",
-        bname: "Cereal",
-        line: " West Side (Spring '22)",
-        major: ["Computer Science"],
-        graduation: "2024",
-        hometown: "Long Beach, CA",
-        nationality: ["Mexican"],
-        src: Zurielpf,
-        flagsrc: [MXflag]
-    },
-    {
-        name: "Cristian Mejia",
-        bname: "Montesinos",
-        line: "El Quisqueyano (Fall '21)",
-        major: ["Computer Systems Engineering", "Information Technology & Web Science"],
-        graduation: "2024",
-        hometown: "Paramus, NJ",
-        position: ["Secretary, Web Chair"],
-        nationality: ["Dominican"],
-        src: Cristianpf,
-        flagsrc: [DRflag]
-
-    }
+    },  
 
 ]

@@ -17,7 +17,7 @@ import Josepf from "../../static/src/img/josepf.jpeg"
 import Diegopf from "../../static/src/img/cvdiegopic.jpeg"
 import Aljandropf from "../../static/src/img/alejandropfpic.jpg"
 import Armanipf from "../../static/src/img/armanipfpic.jpg"
-import Marcpf from "../../static/src/img/marcprofilepc.jpg"
+import Marcpf from "../../static/src/img/marcpf.jpg"
 import DiegoTpf from "../../static/src/img/diegoTpf.jpg"
 import Zurielpf from "../../static/src/img/zurielpf.jpg"
 import Cristianpf from "../../static/src/img/cristianpf.png"
@@ -84,7 +84,7 @@ export const bros = [
         major: ["Computer Science"],
         graduation: "2024",
         hometown: "Long Beach, CA",
-        position: ["Social Chair, Pledging Committee"],
+        position: ["Social Chair"],
         nationality: ["Mexican"],
         src: Zurielpf,
         flagsrc: [MXflag]
@@ -213,7 +213,7 @@ export const bros = [
         graduation: "2023",
         hometown: "Bronx, NY",
         nationality: ["Mexican"],
-        position: ["Recruitment Chair, Pledging Committee"],
+        position: ["Recruitment Chair"],
         src: Michaelpf,
         flagsrc: [MXflag],
         email: "U2FsdGVkX1+JvBECnY2i6/JChS5ZTgKIlxJIp84Xz9zt/0N/p2DCp5P8Idvtcniw",

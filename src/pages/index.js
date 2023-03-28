@@ -19,7 +19,6 @@ const eboard = [
 
 ]
 
-
 export default function Index() {
 
   
